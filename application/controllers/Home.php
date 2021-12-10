@@ -8,15 +8,12 @@ class home extends CI_Controller {
 		parent::__construct();
 		$this->load->helper('url');
 		$this->load->library('form_validation'); 
-		$this->load->model('Banner_model');
+		// $this->load->model('Banner_model');
 	}
 	public function index()
 	{
-		$data['banners'] = $this->Banner_model->fetchActive(); // call all banners active
-
-		$this->load->view('header-script'); // load header script
-		$this->load->view('home',$data);
-		$this->load->view('footer');
+		$this->load->view('header'); // load header script,menu
+		$this->load->view('home');
 	}
 
 }

@@ -1,313 +1,1274 @@
 
-   <style>
-       @media only screen and (max-width: 640px) and (min-width: 360px){
-  
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 13px;
-    color: #000;
-    font-weight: 700;
-    border-radius: 7px;
-
-}
-}
-@media only screen and (max-width: 1024px) and (min-width: 768px){
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 14px;
-    color: #000;
-    font-weight: 700;
-  }
-}
-@media only screen and (max-width: 1920px) and (min-width: 1080px){
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 18px;
-    color: #000;
-    font-weight: 700;
-  }
-}
-@media only screen and (max-width: 2360px) and (min-width: 1640px){
-  .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 18px;
-  color: #000;
-  font-weight: 700;
-}
-}
-   </style> 
-    <!--====== PRELOADER PART START ======-->
-    <div class="preloader">
-        <div class="loader">
-            <div class="ytp-spinner">
-                <div class="ytp-spinner-container">
-                    <div class="ytp-spinner-rotator">
-                        <div class="ytp-spinner-left">
-                            <div class="ytp-spinner-circle"></div>
+<div class="fullwidth-template">
+    <div class="slide-home-03">
+        <div class="response-product product-list-owl owl-slick equal-container better-height"
+             data-slick="{&quot;arrows&quot;:false,&quot;slidesMargin&quot;:0,&quot;dots&quot;:true,&quot;infinite&quot;:false,&quot;speed&quot;:300,&quot;slidesToShow&quot;:1,&quot;rows&quot;:1}"
+             data-responsive="[{&quot;breakpoint&quot;:480,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesMargin&quot;:&quot;0&quot;}},{&quot;breakpoint&quot;:768,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesMargin&quot;:&quot;0&quot;}},{&quot;breakpoint&quot;:992,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesMargin&quot;:&quot;0&quot;}},{&quot;breakpoint&quot;:1200,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesMargin&quot;:&quot;0&quot;}},{&quot;breakpoint&quot;:1500,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesMargin&quot;:&quot;0&quot;}}]">
+            <div class="slide-wrap">
+                <img src="assets/images/slide31.jpg" alt="image">
+                <div class="slide-info">
+                    <div class="container">
+                        <div class="slide-inner">
+                            <h1>SUMMER</h1>
+                            <h5>Hot Watches</h5>
+                            <h2><span>Smart </span>Cool</h2>
+                            <a href="#">Shop now</a>
                         </div>
-                        <div class="ytp-spinner-right">
-                            <div class="ytp-spinner-circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-wrap">
+                <img src="assets/images/slide32.jpg" alt="image">
+                <div class="slide-info">
+                    <div class="container">
+                        <div class="slide-inner">
+                            <h1>SPRING </h1>
+                            <h5>New Arrivals</h5>
+                            <h2><span>Modern</span> collection</h2>
+                            <a href="#">Shop now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-wrap">
+                <img src="assets/images/slide33.jpg" alt="image">
+                <div class="slide-info">
+                    <div class="container">
+                        <div class="slide-inner">
+                            <h1>AUTUMN </h1>
+                            <h5>Best Seller</h5>
+                            <h2><span>Photo </span> Screen</h2>
+                            <a href="#">Shop now</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--====== PRELOADER PART ENDS ======-->
-
-    <!--====== NAVBAR PART START ======-->
-    <section class="header-area">
-        <!-- navbar menu -->
-        <?php $this->load->view('head'); // load header ?>
-        <!-- end -->
-        <!-- sliders banner -->
-        <?php $this->load->view('home-slider-banner'); // load banners ?>
-        <!-- end -->
-    </section>
-    <!--====== NAVBAR PART ENDS ======-->
-
-    <!--====== SAIDEBAR PART START ======-->
-    <?php $this->load->view('sidebar-menu'); // load sider menu ?>
-    <!--====== SAIDEBAR PART ENDS ======-->
-    
-    <!--====== ABOUT PART START ======-->
-
-
-    <!-- section service -->
-    <section id="service" class="service-area">
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="section-title text-center mt-30 pb-40">
-                    <h4 class="title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.6s">คำนวนค่าบริการ</h4>
-                </div>
-            </div> <!-- end row Tag titel service -->
-            <div class="row justify-content-center">
-                        <div class="col-md-6 my-3">
-                            <div class="card-outline-secondary">
-                                <div class="card-body">
-                                    <form class="form" role="form" autocomplete="off">
-                                        <div class="form-group row mt-3">
-                                            <label class="col-md-3 col-form-label form-control-label">ประเภทที่อยู่อาศัย</label>
-                                            <div class="col-md-9">
-                                                <input class="form-control" type="text" value="" readonly style="border-radius: 8rem;">
-                                            </div>
-                                        </div>
-                                        <div class="form-group row mt-3">
-                                            <label class="col-lg-3 col-form-label form-control-label">จำนวนชั้น</label>
-                                            <div class="col-lg-9">
-                                                <input class="form-control" type="text" value="" readonly style="border-radius: 8rem;">
-                                            </div>
-                                        </div>
-                                        <div class="form-group row mt-3">
-                                            <label class="col-lg-3 col-form-label form-control-label">ขนาดพื้นที่ใช้สอย</label>
-                                            <div class="col-lg-9">
-                                                <input class="form-control" type="text" value="" readonly style="border-radius: 8rem;">
-                                            </div>
-                                        </div>
-                                        <div class="form-group row mt-3">
-                                            <label class="col-lg-3 col-form-label form-control-label">ที่อยู่</label>
-                                            <div class="col-lg-9">
-                                                <input class="form-control" type="text" value="" readonly style="border-radius: 8rem;">
-                                            </div>
-                                        </div>
-                                        <div class="form-group row mt-3">
-                                            <label class="col-lg-3 col-form-label form-control-label"></label>
-                                            <div class="col-lg-9">
-                                            
-                                                <input type="button" class="btn btn-primary mt-3" value="คลิกคำนวน" style="border-radius: 9px;"> 
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div><!-- card body -->
-                            </div> <!-- card-outline -->
+    <div class="section-017">
+        <div class="row">
+            <div class="col-md-12 col-lg-4">
+                <div class="kobolg-banner style-08 left-center">
+                    <div class="banner-inner">
+                        <figure class="banner-thumb">
+                            <img src="assets/images/banner31.jpg"
+                                 class="attachment-full size-full" alt="img"></figure>
+                        <div class="banner-info ">
+                            <div class="banner-content">
+                                <div class="title-wrap">
+                                    <h6 class="title">
+                                        Deal Of Day</h6>
+                                </div>
+                                <div class="cate">
+                                    50% sale off
+                                </div>
+                                <div class="button-wrap">
+                                    <a class="button" target="_self" href="#"><span>Shop now</span></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="kobolg-banner style-09 left-center">
+                    <div class="banner-inner">
+                        <figure class="banner-thumb">
+                            <img src="assets/images/banner32.jpg"
+                                 class="attachment-full size-full" alt="img"></figure>
+                        <div class="banner-info ">
+                            <div class="banner-content">
+                                <div class="title-wrap">
+                                    <h6 class="title">
+                                        Best Product </h6>
+                                </div>
+                                <div class="cate">
+                                    Electronics
+                                </div>
+                                <div class="button-wrap">
+                                    <a class="button" target="_self" href="#"><span>Shop now</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="kobolg-banner style-10 left-center">
+                    <div class="banner-inner">
+                        <figure class="banner-thumb">
+                            <img src="assets/images/banner33.jpg"
+                                 class="attachment-full size-full" alt="img"></figure>
+                        <div class="banner-info ">
+                            <div class="banner-content">
+                                <div class="title-wrap">
+                                    <h6 class="title">
+                                        Smart Speaker</h6>
+                                </div>
+                                <div class="cate">
+                                    For Music
+                                </div>
+                                <div class="button-wrap">
+                                    <a class="button" target="_self" href="#"><span>Shop now</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
-
-    <section>
+    </div>
+    <div class="section-001">
         <div class="container">
-            <div class="row" data-wow-duration="1.5s" data-wow-offset="100">
-                <div class="row" data-aos="fade-up"data-aos-duration="1000">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 " style="padding-left: 0px;padding-right: 0px;">
-                        <img src="<?=base_url('assets/img/about/Besttechnicial.png');?>" class="img-rounded" id="accounting2" style="width: 100%;padding: -6px;">
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-3 pt-3">
-                        <h1>เกี่ยวกับเรา</h1>
-                        <h4 >BIG Inspector บริการตรวจรับบ้านและคอนโดแบบครบวงจร ครอบคลุมทุกระบบงาน ด้วยเครื่องมือที่ทันสมัย และระบบรายงานผลการตรวจแบบออนไลน์อัตโนมัติ (Real time) เราเข้าใจและใส่ใจทุกตารางนิ้ว เพื่อให้คุณสบายใจหมดกังวนทุกครั้งที่อยู่บ้าน </h4>
-                        <h4>"เพื่อช่วงเวลาที่ดีที่สุดของคุณ"</h4>
-                        <h4>เพราะบ้านอยู่กับคุณไปอีกนาน</h4>
+            <div class="kobolg-heading style-01">
+                <div class="heading-inner">
+                    <h3 class="title">
+                        Top Trend </h3>
+                    <div class="subtitle">
+                        Browse our website for the hottest items in the marketplace now.
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section>
-        <div class="container mt-5">
-            <div class="row justify-content-center" data-wow-duration="1.5s" data-wow-offset="100">
-                <div class="row" data-aos="fade-up"data-aos-duration="1000">
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
-                    <img src="<?=base_url('assets/images/bigbanner+icon/iconabout1.png');?>" class="img-responsive" style="width:100%;">
-                        <p class="mt-3" style="text-align: center;">เช็คค่าบริการ </p>
-                        <p style="text-align: center;">ก่อนตรวจ</p>
+            <div class="kobolg-products style-04">
+                <div class="response-product product-list-grid row auto-clear equal-container better-height ">
+                    <div class="product-item best-selling style-04 rows-space-30 col-bg-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-ts-6 post-25 product type-product status-publish has-post-thumbnail product_cat-light product_cat-chair product_cat-specials product_tag-light product_tag-sock first instock sale featured shipping-taxable purchasable product-type-simple">
+                        <div class="product-inner tooltip-top tooltip-all-top">
+                            <div class="product-thumb">
+                                <a class="thumb-link" href="#">
+                                    <img class="img-responsive"
+                                         src="assets/images/apro151-1-270x350.jpg"
+                                         alt="Cellphone Factory" width="270" height="350">
+                                </a>
+                                <div class="flash">
+                                    <span class="onsale"><span class="number">-11%</span></span>
+                                    <span class="onnew"><span class="text">New</span></span></div>
+                                <div class="group-button">
+                                    <div class="add-to-cart">
+                                        <a href="#"
+                                           class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to
+                                            cart</a>
+                                    </div>
+                                    <a href="#" class="button yith-wcqv-button">Quick View</a>
+                                    <div class="kobolg product compare-button">
+                                        <a href="#" class="compare button">Compare</a></div>
+                                    <div class="yith-wcwl-add-to-wishlist">
+                                        <div class="yith-wcwl-add-button show">
+                                            <a href="#" class="add_to_wishlist">Add to Wishlist</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name product_title">
+                                    <a href="#">Cellphone Factory</a>
+                                </h3>
+                                <span class="price"><del><span class="kobolg-Price-amount amount"><span
+                                        class="kobolg-Price-currencySymbol">$</span>89.00</span></del> <ins><span
+                                        class="kobolg-Price-amount amount"><span
+                                        class="kobolg-Price-currencySymbol">$</span>79.00</span></ins></span>
+                                <div class="rating-wapper nostar">
+                                    <div class="star-rating"><span style="width:0%">Rated <strong
+                                            class="rating">0</strong> out of 5</span></div>
+                                    <span class="review">(0)</span></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
-                        <img src="<?=base_url('assets/images/bigbanner+icon/iconabout2.png');?>" class="img-responsive" style="width:100%;">
-                        <p class=" mt-3"style="text-align: center;">รายงานผล</p>
-                        <p style="text-align: center;">ออนไลน์ทันที</p>
+                    <div class="product-item best-selling style-04 rows-space-30 col-bg-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-ts-6 post-23 product type-product status-publish has-post-thumbnail product_cat-chair product_cat-lamp product_cat-sofas product_tag-hat  instock shipping-taxable purchasable product-type-variable has-default-attributes">
+                        <div class="product-inner tooltip-top tooltip-all-top">
+                            <div class="product-thumb">
+                                <a class="thumb-link" href="#">
+                                    <img class="img-responsive"
+                                         src="assets/images/apro171-1-270x350.jpg"
+                                         alt="Photo Camera" width="270" height="350">
+                                </a>
+                                <div class="flash">
+                                    <span class="onnew"><span class="text">New</span></span></div>
+                                <form class="variations_form cart">
+                                    <table class="variations">
+                                        <tbody>
+                                        <tr>
+                                            <td class="value">
+                                                <select title="box_style" data-attributetype="box_style"
+                                                        data-id="pa_color"
+                                                        class="attribute-select " name="attribute_pa_color"
+                                                        data-attribute_name="attribute_pa_color"
+                                                        data-show_option_none="yes">
+                                                    <option data-type="" data-pa_color="" value="">Choose an
+                                                        option
+                                                    </option>
+                                                    <option data-width="30" data-height="30" data-type="color"
+                                                            data-pa_color="#ff63cb" value="pink"
+                                                            class="attached enabled">Pink
+                                                    </option>
+                                                    <option data-width="30" data-height="30" data-type="color"
+                                                            data-pa_color="#a825ea" value="purple"
+                                                            class="attached enabled">Purple
+                                                    </option>
+                                                    <option data-width="30" data-height="30" data-type="color"
+                                                            data-pa_color="#db2b00" value="red"
+                                                            class="attached enabled">Red
+                                                    </option>
+                                                </select>
+                                                <div class="data-val attribute-pa_color"
+                                                     data-attributetype="box_style"><a class="change-value color"
+                                                                                       href="#"
+                                                                                       style="background: #ff63cb;"
+                                                                                       data-value="pink"></a><a
+                                                        class="change-value color" href="#"
+                                                        style="background: #a825ea;" data-value="purple"></a><a
+                                                        class="change-value color" href="#"
+                                                        style="background: #db2b00;" data-value="red"></a></div>
+                                                <a class="reset_variations" href="#"
+                                                   style="visibility: hidden;">Clear</a>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </form>
+                                <div class="group-button">
+                                    <div class="add-to-cart">
+                                        <a href="#"
+                                           class="button product_type_simple add_to_cart_button ajax_add_to_cart">Select
+                                            options</a>
+                                    </div>
+                                    <a href="#" class="button yith-wcqv-button">Quick View</a>
+                                    <div class="kobolg product compare-button">
+                                        <a href="#" class="compare button">Compare</a></div>
+                                    <div class="yith-wcwl-add-to-wishlist">
+                                        <div class="yith-wcwl-add-button show">
+                                            <a href="#" class="add_to_wishlist">Add to Wishlist</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name product_title">
+                                    <a href="#">Photo Camera</a>
+                                </h3>
+                                <span class="price"><span class="kobolg-Price-amount amount"><span
+                                        class="kobolg-Price-currencySymbol">$</span>105.00</span> – <span
+                                        class="kobolg-Price-amount amount"><span
+                                        class="kobolg-Price-currencySymbol">$</span>110.00</span></span>
+                                <div class="rating-wapper nostar">
+                                    <div class="star-rating"><span style="width:0%">Rated <strong
+                                            class="rating">0</strong> out of 5</span></div>
+                                    <span class="review">(0)</span></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
-                    <img src="<?=base_url('assets/images/bigbanner+icon/iconabout3.png');?>" class="img-responsive" style="width:100%;">
-                        <p class="mt-3" style="text-align: center;">จองฟรี</p>
-                        <p style="text-align: center;"> ไม่มีค่ามัดจำ</p>
+                    <div class="product-item best-selling style-04 rows-space-30 col-bg-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-ts-6 post-32 product type-product status-publish has-post-thumbnail product_cat-light product_cat-chair product_cat-sofas product_tag-hat product_tag-sock last instock sale featured shipping-taxable purchasable product-type-simple">
+                        <div class="product-inner tooltip-top tooltip-all-top">
+                            <div class="product-thumb">
+                                <a class="thumb-link" href="#">
+                                    <img class="img-responsive"
+                                         src="assets/images/apro71-1-270x350.jpg"
+                                         alt="Gaming Mouse" width="270" height="350">
+                                </a>
+                                <div class="flash">
+                                    <span class="onsale"><span class="number">-18%</span></span>
+                                    <span class="onnew"><span class="text">New</span></span></div>
+                                <div class="group-button">
+                                    <div class="add-to-cart">
+                                        <a href="#"
+                                           class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to
+                                            cart</a>
+                                    </div>
+                                    <a href="#" class="button yith-wcqv-button">Quick View</a>
+                                    <div class="kobolg product compare-button">
+                                        <a href="#" class="compare button">Compare</a></div>
+                                    <div class="yith-wcwl-add-to-wishlist">
+                                        <div class="yith-wcwl-add-button show">
+                                            <a href="#" class="add_to_wishlist">Add to Wishlist</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name product_title">
+                                    <a href="#">Gaming Mouse</a>
+                                </h3>
+                                <span class="price"><del><span class="kobolg-Price-amount amount"><span
+                                        class="kobolg-Price-currencySymbol">$</span>109.00</span></del> <ins><span
+                                        class="kobolg-Price-amount amount"><span
+                                        class="kobolg-Price-currencySymbol">$</span>89.00</span></ins></span>
+                                <div class="rating-wapper nostar">
+                                    <div class="star-rating"><span style="width:0%">Rated <strong
+                                            class="rating">0</strong> out of 5</span></div>
+                                    <span class="review">(0)</span></div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="product-item best-selling style-04 rows-space-30 col-bg-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-ts-6 post-20 product type-product status-publish has-post-thumbnail product_cat-light product_cat-new-arrivals product_cat-specials product_tag-table product_tag-hat product_tag-sock first instock sale featured shipping-taxable purchasable product-type-simple">
+                        <div class="product-inner tooltip-top tooltip-all-top">
+                            <div class="product-thumb">
+                                <a class="thumb-link" href="#">
+                                    <img class="img-responsive"
+                                         src="assets/images/apro201-1-270x350.jpg"
+                                         alt="Smart Monitor" width="270" height="350">
+                                </a>
+                                <div class="flash">
+                                    <span class="onsale"><span class="number">-7%</span></span>
+                                    <span class="onnew"><span class="text">New</span></span></div>
+                                <div class="group-button">
+                                    <div class="add-to-cart">
+                                        <a href="#"
+                                           class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to
+                                            cart</a>
+                                    </div>
+                                    <a href="#" class="button yith-wcqv-button">Quick View</a>
+                                    <div class="kobolg product compare-button">
+                                        <a href="#" class="compare button">Compare</a></div>
+                                    <div class="yith-wcwl-add-to-wishlist">
+                                        <div class="yith-wcwl-add-button show">
+                                            <a href="#" class="add_to_wishlist">Add to Wishlist</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name product_title">
+                                    <a href="#">Smart Monitor</a>
+                                </h3>
+                                <span class="price"><del><span class="kobolg-Price-amount amount"><span
+                                        class="kobolg-Price-currencySymbol">$</span>150.00</span></del> <ins><span
+                                        class="kobolg-Price-amount amount"><span
+                                        class="kobolg-Price-currencySymbol">$</span>139.00</span></ins></span>
+                                <div class="rating-wapper nostar">
+                                    <div class="star-rating"><span style="width:0%">Rated <strong
+                                            class="rating">0</strong> out of 5</span></div>
+                                    <span class="review">(0)</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item best-selling style-04 rows-space-30 col-bg-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-ts-6 post-36 product type-product status-publish has-post-thumbnail product_cat-table product_cat-bed product_tag-light product_tag-table product_tag-sock  instock sale shipping-taxable purchasable product-type-simple">
+                        <div class="product-inner tooltip-top tooltip-all-top">
+                            <div class="product-thumb">
+                                <a class="thumb-link" href="#">
+                                    <img class="img-responsive"
+                                         src="assets/images/apro51012-1-270x350.jpg"
+                                         alt="Multi Cellphone" width="270" height="350">
+                                </a>
+                                <div class="flash">
+                                    <span class="onsale"><span class="number">-21%</span></span>
+                                    <span class="onnew"><span class="text">New</span></span></div>
+                                <div class="group-button">
+                                    <div class="add-to-cart">
+                                        <a href="#"
+                                           class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to
+                                            cart</a>
+                                    </div>
+                                    <a href="#" class="button yith-wcqv-button">Quick View</a>
+                                    <div class="kobolg product compare-button">
+                                        <a href="#" class="compare button">Compare</a></div>
+                                    <div class="yith-wcwl-add-to-wishlist">
+                                        <div class="yith-wcwl-add-button show">
+                                            <a href="#" class="add_to_wishlist">Add to Wishlist</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name product_title">
+                                    <a href="#">Multi Cellphone</a>
+                                </h3>
+                                <span class="price"><del><span class="kobolg-Price-amount amount"><span
+                                        class="kobolg-Price-currencySymbol">$</span>125.00</span></del> <ins><span
+                                        class="kobolg-Price-amount amount"><span
+                                        class="kobolg-Price-currencySymbol">$</span>99.00</span></ins></span>
+                                <div class="rating-wapper nostar">
+                                    <div class="star-rating"><span style="width:0%">Rated <strong
+                                            class="rating">0</strong> out of 5</span></div>
+                                    <span class="review">(0)</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item best-selling style-04 rows-space-30 col-bg-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-ts-6 post-49 product type-product status-publish has-post-thumbnail product_cat-light product_cat-bed product_cat-sofas product_tag-multi product_tag-lamp last instock shipping-taxable purchasable product-type-simple">
+                        <div class="product-inner tooltip-top tooltip-all-top">
+                            <div class="product-thumb">
+                                <a class="thumb-link" href="#">
+                                    <img class="img-responsive"
+                                         src="assets/images/apro302-270x350.jpg"
+                                         alt="Circle Watches" width="270" height="350">
+                                </a>
+                                <div class="flash">
+                                    <span class="onnew"><span class="text">New</span></span></div>
+                                <div class="group-button">
+                                    <div class="add-to-cart">
+                                        <a href="#"
+                                           class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to
+                                            cart</a>
+                                    </div>
+                                    <a href="#" class="button yith-wcqv-button">Quick View</a>
+                                    <div class="kobolg product compare-button">
+                                        <a href="#" class="compare button">Compare</a></div>
+                                    <div class="yith-wcwl-add-to-wishlist">
+                                        <div class="yith-wcwl-add-button show">
+                                            <a href="#" class="add_to_wishlist">Add to Wishlist</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name product_title">
+                                    <a href="#">Circle Watches</a>
+                                </h3>
+                                <span class="price"><span class="kobolg-Price-amount amount"><span
+                                        class="kobolg-Price-currencySymbol">$</span>79.00</span></span>
+                                <div class="rating-wapper nostar">
+                                    <div class="star-rating"><span style="width:0%">Rated <strong
+                                            class="rating">0</strong> out of 5</span></div>
+                                    <span class="review">(0)</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item best-selling style-04 rows-space-30 col-bg-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-ts-6 post-93 product type-product status-publish has-post-thumbnail product_cat-light product_cat-table product_cat-new-arrivals product_tag-table product_tag-sock first instock shipping-taxable purchasable product-type-simple">
+                        <div class="product-inner tooltip-top tooltip-all-top">
+                            <div class="product-thumb">
+                                <a class="thumb-link" href="#">
+                                    <img class="img-responsive"
+                                         src="assets/images/apro13-1-270x350.jpg"
+                                         alt="Meta Watches                                                " width="270" height="350">
+                                </a>
+                                <div class="flash">
+                                    <span class="onnew"><span class="text">New</span></span></div>
+                                <div class="group-button">
+                                    <div class="add-to-cart">
+                                        <a href="#"
+                                           class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to
+                                            cart</a>
+                                    </div>
+                                    <a href="#" class="button yith-wcqv-button">Quick View</a>
+                                    <div class="kobolg product compare-button">
+                                        <a href="#" class="compare button">Compare</a></div>
+                                    <div class="yith-wcwl-add-to-wishlist">
+                                        <div class="yith-wcwl-add-button show">
+                                            <a href="#" class="add_to_wishlist">Add to Wishlist</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name product_title">
+                                    <a href="#">Meta Watches                                                </a>
+                                </h3>
+                                <span class="price"><span class="kobolg-Price-amount amount"><span
+                                        class="kobolg-Price-currencySymbol">$</span>109.00</span></span>
+                                <div class="rating-wapper nostar">
+                                    <div class="star-rating"><span style="width:0%">Rated <strong
+                                            class="rating">0</strong> out of 5</span></div>
+                                    <span class="review">(0)</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item best-selling style-04 rows-space-30 col-bg-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-ts-6 post-28 product type-product status-publish has-post-thumbnail product_cat-light product_cat-chair product_cat-sofas product_tag-light product_tag-sock  instock sale featured shipping-taxable purchasable product-type-simple">
+                        <div class="product-inner tooltip-top tooltip-all-top">
+                            <div class="product-thumb">
+                                <a class="thumb-link" href="#">
+                                    <img class="img-responsive"
+                                         src="assets/images/apro1211-2-270x350.jpg"
+                                         alt="Modern Watches" width="270" height="350">
+                                </a>
+                                <div class="flash">
+                                    <span class="onsale"><span class="number">-14%</span></span>
+                                    <span class="onnew"><span class="text">New</span></span></div>
+                                <div class="group-button">
+                                    <div class="add-to-cart">
+                                        <a href="#"
+                                           class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to
+                                            cart</a>
+                                    </div>
+                                    <a href="#" class="button yith-wcqv-button">Quick View</a>
+                                    <div class="kobolg product compare-button">
+                                        <a href="#" class="compare button">Compare</a></div>
+                                    <div class="yith-wcwl-add-to-wishlist">
+                                        <div class="yith-wcwl-add-button show">
+                                            <a href="#" class="add_to_wishlist">Add to Wishlist</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name product_title">
+                                    <a href="#">Modern Watches</a>
+                                </h3>
+                                <span class="price"><del><span class="kobolg-Price-amount amount"><span
+                                        class="kobolg-Price-currencySymbol">$</span>138.00</span></del> <ins><span
+                                        class="kobolg-Price-amount amount"><span
+                                        class="kobolg-Price-currencySymbol">$</span>119.00</span></ins></span>
+                                <div class="rating-wapper ">
+                                    <div class="star-rating"><span style="width:100%">Rated <strong
+                                            class="rating">5.00</strong> out of 5</span>
+                                    </div>
+                                    <span class="review">(1)</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item best-selling style-04 rows-space-30 col-bg-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-ts-6 post-22 product type-product status-publish has-post-thumbnail product_cat-table product_cat-bed product_cat-lamp product_tag-table product_tag-hat product_tag-sock last instock featured downloadable shipping-taxable purchasable product-type-simple">
+                        <div class="product-inner tooltip-top tooltip-all-top">
+                            <div class="product-thumb">
+                                <a class="thumb-link" href="#">
+                                    <img class="img-responsive"
+                                         src="assets/images/apro181-2-270x350.jpg"
+                                         alt="Red Mouse" width="270" height="350">
+                                </a>
+                                <div class="flash">
+                                    <span class="onnew"><span class="text">New</span></span></div>
+                                <div class="group-button">
+                                    <div class="add-to-cart">
+                                        <a href="#"
+                                           class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to
+                                            cart</a>
+                                    </div>
+                                    <a href="#" class="button yith-wcqv-button">Quick View</a>
+                                    <div class="kobolg product compare-button">
+                                        <a href="#" class="compare button">Compare</a></div>
+                                    <div class="yith-wcwl-add-to-wishlist">
+                                        <div class="yith-wcwl-add-button show">
+                                            <a href="#" class="add_to_wishlist">Add to Wishlist</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name product_title">
+                                    <a href="#">Red Mouse</a>
+                                </h3>
+                                <span class="price"><span class="kobolg-Price-amount amount"><span
+                                        class="kobolg-Price-currencySymbol">$</span>98.00</span></span>
+                                <div class="rating-wapper nostar">
+                                    <div class="star-rating"><span style="width:0%">Rated <strong
+                                            class="rating">0</strong> out of 5</span></div>
+                                    <span class="review">(0)</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item best-selling style-04 rows-space-30 col-bg-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-ts-6 post-30 product type-product status-publish has-post-thumbnail product_cat-light product_cat-bed product_cat-specials product_tag-light product_tag-table product_tag-sock first instock featured downloadable shipping-taxable purchasable product-type-simple">
+                        <div class="product-inner tooltip-top tooltip-all-top">
+                            <div class="product-thumb">
+                                <a class="thumb-link" href="#">
+                                    <img class="img-responsive"
+                                         src="assets/images/apro101-1-270x350.jpg"
+                                         alt="Mac 27 Inch" width="270" height="350">
+                                </a>
+                                <div class="flash">
+                                    <span class="onnew"><span class="text">New</span></span></div>
+                                <div class="group-button">
+                                    <div class="add-to-cart">
+                                        <a href="#"
+                                           class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to
+                                            cart</a>
+                                    </div>
+                                    <a href="#" class="button yith-wcqv-button">Quick View</a>
+                                    <div class="kobolg product compare-button">
+                                        <a href="#" class="compare button">Compare</a></div>
+                                    <div class="yith-wcwl-add-to-wishlist">
+                                        <div class="yith-wcwl-add-button show">
+                                            <a href="#" class="add_to_wishlist">Add to Wishlist</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name product_title">
+                                    <a href="#">Mac 27 Inch</a>
+                                </h3>
+                                <span class="price"><span class="kobolg-Price-amount amount"><span
+                                        class="kobolg-Price-currencySymbol">$</span>60.00</span></span>
+                                <div class="rating-wapper nostar">
+                                    <div class="star-rating"><span style="width:0%">Rated <strong
+                                            class="rating">0</strong> out of 5</span></div>
+                                    <span class="review">(0)</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item best-selling style-04 rows-space-30 col-bg-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-ts-6 post-35 product type-product status-publish has-post-thumbnail product_cat-chair product_cat-new-arrivals product_cat-lamp product_tag-light product_tag-hat product_tag-sock  instock shipping-taxable purchasable product-type-simple">
+                        <div class="product-inner tooltip-top tooltip-all-top">
+                            <div class="product-thumb">
+                                <a class="thumb-link" href="#">
+                                    <img class="img-responsive"
+                                         src="assets/images/apro41-1-270x350.jpg"
+                                         alt="White Watches" width="270" height="350">
+                                </a>
+                                <div class="flash">
+                                    <span class="onnew"><span class="text">New</span></span></div>
+                                <div class="group-button">
+                                    <div class="add-to-cart">
+                                        <a href="#"
+                                           class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to
+                                            cart</a>
+                                    </div>
+                                    <a href="#" class="button yith-wcqv-button">Quick View</a>
+                                    <div class="kobolg product compare-button">
+                                        <a href="#" class="compare button">Compare</a></div>
+                                    <div class="yith-wcwl-add-to-wishlist">
+                                        <div class="yith-wcwl-add-button show">
+                                            <a href="#" class="add_to_wishlist">Add to Wishlist</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name product_title">
+                                    <a href="#">White Watches</a>
+                                </h3>
+                                <span class="price"><span class="kobolg-Price-amount amount"><span
+                                        class="kobolg-Price-currencySymbol">$</span>134.00</span></span>
+                                <div class="rating-wapper nostar">
+                                    <div class="star-rating"><span style="width:0%">Rated <strong
+                                            class="rating">0</strong> out of 5</span></div>
+                                    <span class="review">(0)</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item best-selling style-04 rows-space-30 col-bg-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-ts-6 post-24 product type-product status-publish has-post-thumbnail product_cat-chair product_cat-table product_cat-new-arrivals product_tag-light product_tag-hat product_tag-sock last instock featured shipping-taxable purchasable product-type-variable has-default-attributes">
+                        <div class="product-inner tooltip-top tooltip-all-top">
+                            <div class="product-thumb">
+                                <a class="thumb-link" href="#">
+                                    <img class="img-responsive"
+                                         src="assets/images/apro161-1-270x350.jpg"
+                                         alt="Gaming Mouse" width="270" height="350">
+                                </a>
+                                <div class="flash">
+                                    <span class="onnew"><span class="text">New</span></span></div>
+                                <form class="variations_form cart">
+                                    <table class="variations">
+                                        <tbody>
+                                        <tr>
+                                            <td class="value">
+                                                <select title="box_style" data-attributetype="box_style"
+                                                        data-id="pa_color"
+                                                        class="attribute-select " name="attribute_pa_color"
+                                                        data-attribute_name="attribute_pa_color"
+                                                        data-show_option_none="yes">
+                                                    <option data-type="" data-pa_color="" value="">Choose an
+                                                        option
+                                                    </option>
+                                                    <option data-width="30" data-height="30" data-type="color"
+                                                            data-pa_color="#3155e2" value="blue"
+                                                            class="attached enabled">Blue
+                                                    </option>
+                                                    <option data-width="30" data-height="30" data-type="color"
+                                                            data-pa_color="#49aa51" value="green"
+                                                            class="attached enabled">Green
+                                                    </option>
+                                                    <option data-width="30" data-height="30" data-type="color"
+                                                            data-pa_color="#ff63cb" value="pink"
+                                                            class="attached enabled">Pink
+                                                    </option>
+                                                </select>
+                                                <div class="data-val attribute-pa_color"
+                                                     data-attributetype="box_style"><a class="change-value color"
+                                                                                       href="#"
+                                                                                       style="background: #3155e2;"
+                                                                                       data-value="blue"></a><a
+                                                        class="change-value color" href="#"
+                                                        style="background: #49aa51;" data-value="green"></a><a
+                                                        class="change-value color" href="#"
+                                                        style="background: #ff63cb;" data-value="pink"></a></div>
+                                                <a class="reset_variations" href="#"
+                                                   style="visibility: hidden;">Clear</a>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </form>
+                                <div class="group-button">
+                                    <div class="add-to-cart">
+                                        <a href="#"
+                                           class="button product_type_simple add_to_cart_button ajax_add_to_cart">Select
+                                            options</a>
+                                    </div>
+                                    <a href="#" class="button yith-wcqv-button">Quick View</a>
+                                    <div class="kobolg product compare-button">
+                                        <a href="#" class="compare button">Compare</a></div>
+                                    <div class="yith-wcwl-add-to-wishlist">
+                                        <div class="yith-wcwl-add-button show">
+                                            <a href="#" class="add_to_wishlist">Add to Wishlist</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name product_title">
+                                    <a href="#">Gaming Mouse</a>
+                                </h3>
+                                <span class="price"><span class="kobolg-Price-amount amount"><span
+                                        class="kobolg-Price-currencySymbol">$</span>45.00</span> – <span
+                                        class="kobolg-Price-amount amount"><span
+                                        class="kobolg-Price-currencySymbol">$</span>54.00</span></span>
+                                <div class="rating-wapper nostar">
+                                    <div class="star-rating"><span style="width:0%">Rated <strong
+                                            class="rating">0</strong> out of 5</span></div>
+                                    <span class="review">(0)</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- OWL Products -->
+                <div class="shop-all">
+                    <a target=" _blank" href="#">Discovery All</a>
                 </div>
             </div>
         </div>
-    </section>
-    <section>
-        <div class="container mt-5">
+    </div>
+    <div class="section-018">
+        <div class="container">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-5">
-                    <div class="justify-content-center">
-                        <h4 class="" style="text-align: center;">บริการของเรา</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center" data-wow-duration="1.5s" data-wow-offset="100">
-                <div class="row" data-aos="fade-up"data-aos-duration="1000">
-                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                        <div class="card" style="width:100%;">
-                        <div class="content-overlay"></div>
-                            <img src="assets/images/portfolio/bbaf472f4671eb81.jpg" class="card-img-top" alt="...">
-                                <div class="centered">
-                                    <h4>คอนโด</h4>
-                                            <button type="button" class="btn btn-primary">คลิกดูผลงาน</button>
+                <div class="col-sm-12 offset-md-4 col-md-8 offset-xl-6 col-xl-6 offset-lg-5 col-lg-7">
+                    <div class="kobolg-slide">
+                        <div class="owl-slick equal-container better-height"
+                             data-slick="{&quot;arrows&quot;:false,&quot;slidesMargin&quot;:0,&quot;dots&quot;:true,&quot;infinite&quot;:false,&quot;speed&quot;:300,&quot;slidesToShow&quot;:1,&quot;vertical&quot;:true,&quot;verticalSwiping&quot;:true,&quot;rows&quot;:1}"
+                             data-responsive="[{&quot;breakpoint&quot;:480,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesMargin&quot;:&quot;0&quot;}},{&quot;breakpoint&quot;:768,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesMargin&quot;:&quot;0&quot;}},{&quot;breakpoint&quot;:992,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesMargin&quot;:&quot;0&quot;}},{&quot;breakpoint&quot;:1200,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesMargin&quot;:&quot;0&quot;}},{&quot;breakpoint&quot;:1500,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesMargin&quot;:&quot;0&quot;}}]">
+                            <div class="kobolg-testimonial style-01">
+                                <div class="testimonial-inner">
+                                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipiscing elit,
+                                        facilisi viverra morbi aptent taciti hendrerit pulvinar ante</p>
+                                    <div class="testimonial-info">
+                                        <div class="intro">
+                                            <h3 class="name">
+                                                <a href="#" target="_self" tabindex="0">
+                                                    Charley Pratt </a>
+                                            </h3>
+                                            <div class="position">
+                                                Student
+                                            </div>
+                                        </div>
+                                        <div class="thumb">
+                                            <img src="assets/images/avatar1.jpg"
+                                                 class="attachment-full size-full" alt="img" width="97"
+                                                 height="97"></div>
+                                    </div>
                                 </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                        <div class="card" style="width:100%;">
-                        <div class="content-overlay"></div>
-                            <img src="assets/images/portfolio/Townhouse-VS-Townhome.jpg" class="card-img-top" alt="...">
-                                <div class="centered">
-                                    <h4>ทาวน์โฮม</h4>
-                                        <button type="button" class="btn btn-primary">คลิกดูผลงาน</button>
+                            </div>
+                            <div class="kobolg-testimonial style-01">
+                                <div class="testimonial-inner">
+                                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipiscing elit,
+                                        facilisi viverra morbi aptent taciti hendrerit pulvinar ante</p>
+                                    <div class="testimonial-info">
+                                        <div class="intro">
+                                            <h3 class="name">
+                                                <a href="#" target="_self" tabindex="-1">
+                                                    Nadia Pugh </a>
+                                            </h3>
+                                            <div class="position">
+                                                Student
+                                            </div>
+                                        </div>
+                                        <div class="thumb">
+                                            <img src="assets/images/avatar3.jpg"
+                                                 class="attachment-full size-full" alt="img" width="97"
+                                                 height="97"></div>
+                                    </div>
                                 </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                        <div class="card" style="width:100%;">
-                        <div class="content-overlay"></div>
-                            <img src="assets/images/portfolio/Lalin-Town-Lanceo-CRIB-ลำลูกกา-คลอง-2-แบบบ้าน-monaco.jpg" class="card-img-top" alt="...">
-                                <div class="centered">
-                                    <h4>บ้านเดี่ยว</h4>
-                                        <button type="button" class="btn btn-primary">คลิกดูผลงาน</button>
+                            </div>
+                            <div class="kobolg-testimonial style-01">
+                                <div class="testimonial-inner">
+                                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipiscing elit,
+                                        facilisi viverra morbi aptent taciti hendrerit pulvinar ante</p>
+                                    <div class="testimonial-info">
+                                        <div class="intro">
+                                            <h3 class="name">
+                                                <a href="#" target="_self" tabindex="-1">
+                                                    Troy Bryant </a>
+                                            </h3>
+                                            <div class="position">
+                                                Student
+                                            </div>
+                                        </div>
+                                        <div class="thumb">
+                                            <img src="assets/images/avatar2.jpg"
+                                                 class="attachment-full size-full" alt="img" width="97"
+                                                 height="97"></div>
+                                    </div>
                                 </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                        <div class="card" style="width:100%;">
-                        <div class="content-overlay"></div>
-                            <img src="assets/images/portfolio/sansiri-investor-content-อัพเดต5โครงการบ้านแฝด-anasiri-krungthep-pathumthani-01.jpg" class="card-img-top" alt="...">
-                                <div class="centered">
-                                    <h4>บ้านแฝด</h4>
-                                        <button type="button" class="btn btn-primary">คลิกดูผลงาน</button>
-                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <section>
-        <div class="container mt-5">
+    </div>
+    <div class="section-001">
+        <div class="container">
+            <div class="kobolg-heading style-01">
+                <div class="heading-inner">
+                    <h3 class="title">
+                        From Our Blog</h3>
+                    <div class="subtitle">
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit erat vehicula ad, mollis viverra
+                        vulputate
+                    </div>
+                </div>
+            </div>
+            <div class="kobolg-blog style-02">
+                <div class="blog-list-owl owl-slick equal-container better-height"
+                     data-slick="{&quot;arrows&quot;:false,&quot;slidesMargin&quot;:30,&quot;dots&quot;:true,&quot;infinite&quot;:false,&quot;speed&quot;:300,&quot;slidesToShow&quot;:3,&quot;rows&quot;:1}"
+                     data-responsive="[{&quot;breakpoint&quot;:480,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesMargin&quot;:&quot;10&quot;}},{&quot;breakpoint&quot;:768,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesMargin&quot;:&quot;10&quot;}},{&quot;breakpoint&quot;:992,&quot;settings&quot;:{&quot;slidesToShow&quot;:2,&quot;slidesMargin&quot;:&quot;20&quot;}},{&quot;breakpoint&quot;:1200,&quot;settings&quot;:{&quot;slidesToShow&quot;:2,&quot;slidesMargin&quot;:&quot;20&quot;}},{&quot;breakpoint&quot;:1500,&quot;settings&quot;:{&quot;slidesToShow&quot;:3,&quot;slidesMargin&quot;:&quot;30&quot;}}]">
+                    <article
+                            class="post-item post-grid rows-space-0 post-195 post type-post status-publish format-standard has-post-thumbnail hentry category-light category-table category-life-style tag-light tag-life-style">
+                        <div class="post-inner">
+                            <div class="post-thumb">
+                                <a href="#" tabindex="0">
+                                    <img src="assets/images/blogpost1-370x330.jpg"
+                                         class="img-responsive attachment-370x330 size-370x330" alt="img"
+                                         width="370" height="330"> </a>
+                            </div>
+                            <div class="post-content">
+                                <div class="post-info">
+                                    <div class="title-date">
+                                        <a class="datebox" href="#"
+                                           tabindex="0">
+                                            <span>19</span>
+                                            <span>Dec</span>
+                                        </a>
+                                        <h2 class="post-title">
+                                            <a href="#" tabindex="0">Not your ordinary multi service.</a>
+                                        </h2>
+                                    </div>
+                                    <div class="post-meta">
+                                        <div class="post-author">
+                                            By:<a href="#" tabindex="0">
+                                            admin </a>
+                                        </div>
+                                        <div class="post-comment-icon">
+                                            <a href="#" tabindex="0">0 </a>
+                                        </div>
+                                    </div>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sodales
+                                    quisque litora dapibus primis lacinia
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article
+                            class="post-item post-grid rows-space-0 post-192 post type-post status-publish format-standard has-post-thumbnail hentry category-light category-fashion category-multi category-life-style tag-light tag-fashion tag-multi">
+                        <div class="post-inner">
+                            <div class="post-thumb">
+                                <a href="#" tabindex="0">
+                                    <img src="assets/images/blogpost5-370x330.jpg"
+                                         class="img-responsive attachment-370x330 size-370x330" alt="img" width="370"
+                                         height="330">
+                                </a>
+                            </div>
+                            <div class="post-content">
+                                <div class="post-info">
+                                    <div class="title-date">
+                                        <a class="datebox" href="#"
+                                           tabindex="0">
+                                            <span>19</span>
+                                            <span>Dec</span>
+                                        </a>
+                                        <h2 class="post-title">
+                                            <a href="#" tabindex="0">We bring you the best by working</a></h2>
+                                    </div>
+                                    <div class="post-meta">
+                                        <div class="post-author">
+                                            By:<a href="#" tabindex="0">
+                                            admin </a>
+                                        </div>
+                                        <div class="post-comment-icon">
+                                            <a href="#" tabindex="0">0 </a>
+                                        </div>
+                                    </div>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sodales
+                                    quisque litora dapibus primis lacinia
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article
+                            class="post-item post-grid rows-space-0 post-189 post type-post status-publish format-video has-post-thumbnail hentry category-table category-life-style tag-multi tag-life-style post_format-post-format-video">
+                        <div class="post-inner">
+                            <div class="post-thumb">
+                                <a href="#"
+                                   tabindex="0">
+                                    <img src="assets/images/blogpost9-370x330.jpg"
+                                         class="img-responsive attachment-370x330 size-370x330" alt="img"
+                                         width="370" height="330"> </a>
+                            </div>
+                            <div class="post-content">
+                                <div class="post-info">
+                                    <div class="title-date">
+                                        <a class="datebox" href="#"
+                                           tabindex="0">
+                                            <span>19</span>
+                                            <span>Dec</span>
+                                        </a>
+                                        <h2 class="post-title"><a
+                                                href="#"
+                                                tabindex="0">We design functional best multi</a></h2>
+                                    </div>
+                                    <div class="post-meta">
+                                        <div class="post-author">
+                                            By:<a href="#" tabindex="0">
+                                            admin </a>
+                                        </div>
+                                        <div class="post-comment-icon">
+                                            <a href="#"
+                                               tabindex="0">
+                                                0 </a>
+                                        </div>
+                                    </div>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sodales
+                                    quisque litora dapibus primis lacinia
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article
+                            class="post-item post-grid rows-space-0 post-186 post type-post status-publish format-standard has-post-thumbnail hentry category-light category-life-style tag-life-style">
+                        <div class="post-inner">
+                            <div class="post-thumb">
+                                <a href="#" tabindex="-1">
+                                    <img src="assets/images/blogpost4-370x330.jpg"
+                                         class="img-responsive attachment-370x330 size-370x330" alt="img" width="370"
+                                         height="330">
+                                </a>
+                            </div>
+                            <div class="post-content">
+                                <div class="post-info">
+                                    <div class="title-date">
+                                        <a class="datebox" href="#"
+                                           tabindex="-1">
+                                            <span>19</span>
+                                            <span>Dec</span>
+                                        </a>
+                                        <h2 class="post-title">
+                                            <a href="#" tabindex="-1">The child is swimming with a buoy</a>
+                                        </h2>
+                                    </div>
+                                    <div class="post-meta">
+                                        <div class="post-author">
+                                            By:<a href="#" tabindex="-1">
+                                            admin </a>
+                                        </div>
+                                        <div class="post-comment-icon">
+                                            <a href="#" tabindex="-1">0 </a>
+                                        </div>
+                                    </div>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sodales
+                                    quisque litora dapibus primis lacinia
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article
+                            class="post-item post-grid rows-space-0 post-183 post type-post status-publish format-standard has-post-thumbnail hentry category-light category-fashion tag-light tag-multi">
+                        <div class="post-inner">
+                            <div class="post-thumb">
+                                <a href="#" tabindex="-1">
+                                    <img src="assets/images/blogpost2-370x330.jpg"
+                                         class="img-responsive attachment-370x330 size-370x330" alt="img"
+                                         width="370" height="330"> </a>
+                            </div>
+                            <div class="post-content">
+                                <div class="post-info">
+                                    <div class="title-date">
+                                        <a class="datebox" href="#"
+                                           tabindex="-1">
+                                            <span>19</span>
+                                            <span>Dec</span>
+                                        </a>
+                                        <h2 class="post-title"><a
+                                                href="#"
+                                                tabindex="-1">Collection hiding beside beige wall</a></h2>
+                                    </div>
+                                    <div class="post-meta">
+                                        <div class="post-author">
+                                            By:<a href="#" tabindex="-1">
+                                            admin </a>
+                                        </div>
+                                        <div class="post-comment-icon">
+                                            <a href="#"
+                                               tabindex="-1">
+                                                0 </a>
+                                        </div>
+                                    </div>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sodales
+                                    quisque litora dapibus primis lacinia
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-043 section-019">
+        <div class="kobolg-heading style-01">
+            <div class="heading-inner">
+                <h3 class="title">
+                    Follow Us </h3>
+                <div class="subtitle">
+                    @kobolgshop
+                </div>
+            </div>
+        </div>
+        <div class="kobolg-instagram style-01">
+            <div class="instagram-owl owl-slick"
+                 data-slick="{&quot;arrows&quot;:false,&quot;slidesMargin&quot;:0,&quot;dots&quot;:false,&quot;infinite&quot;:false,&quot;speed&quot;:300,&quot;slidesToShow&quot;:6,&quot;rows&quot;:1}"
+                 data-responsive="[{&quot;breakpoint&quot;:480,&quot;settings&quot;:{&quot;slidesToShow&quot;:2,&quot;slidesMargin&quot;:&quot;0&quot;}},{&quot;breakpoint&quot;:768,&quot;settings&quot;:{&quot;slidesToShow&quot;:3,&quot;slidesMargin&quot;:&quot;0&quot;}},{&quot;breakpoint&quot;:992,&quot;settings&quot;:{&quot;slidesToShow&quot;:4,&quot;slidesMargin&quot;:&quot;0&quot;}},{&quot;breakpoint&quot;:1200,&quot;settings&quot;:{&quot;slidesToShow&quot;:5,&quot;slidesMargin&quot;:&quot;0&quot;}},{&quot;breakpoint&quot;:1500,&quot;settings&quot;:{&quot;slidesToShow&quot;:6,&quot;slidesMargin&quot;:&quot;0&quot;}}]">
+                <div class="rows-space-0">
+                    <a target="_blank" href="#" class="item  " tabindex="0">
+                        <img class="img-responsive lazy" src="assets/images/insta1.jpg" alt="Home 03">
+                        <span class="instagram-info">
+                             <span class="social-wrap">
+                                <span class="social-info">1
+                                    <i class="flaticon-chat"></i>
+                                </span>
+                                <span class="social-info">0
+                                    <i class="flaticon-heart-shape-outline"></i>
+                                </span>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="rows-space-0">
+                    <a target="_blank" href="#" class="item  " tabindex="0">
+                        <img class="img-responsive lazy" src="assets/images/insta2.jpg" alt="Home 03">
+                        <span class="instagram-info">
+                                 <span class="social-wrap">
+                                    <span class="social-info">1
+                                        <i class="flaticon-chat"></i>
+                                    </span>
+                                    <span class="social-info">0
+                                        <i class="flaticon-heart-shape-outline"></i>
+                                    </span>
+                                </span>
+                            </span>
+                    </a>
+                </div>
+                <div class="rows-space-0">
+                    <a target="_blank" href="#" class="item  " tabindex="0">
+                        <img class="img-responsive lazy" src="assets/images/insta3.jpg" alt="Home 03">
+                        <span class="instagram-info">
+                                 <span class="social-wrap">
+                                    <span class="social-info">1
+                                        <i class="flaticon-chat"></i>
+                                    </span>
+                                    <span class="social-info">0
+                                        <i class="flaticon-heart-shape-outline"></i>
+                                    </span>
+                                </span>
+                            </span>
+                    </a>
+                </div>
+                <div class="rows-space-0">
+                    <a target="_blank" href="#" class="item  " tabindex="0">
+                        <img class="img-responsive lazy" src="assets/images/insta4.jpg" alt="Home 03">
+                        <span class="instagram-info">
+                                 <span class="social-wrap">
+                                    <span class="social-info">1
+                                        <i class="flaticon-chat"></i>
+                                    </span>
+                                    <span class="social-info">0
+                                        <i class="flaticon-heart-shape-outline"></i>
+                                    </span>
+                                </span>
+                            </span>
+                    </a>
+                </div>
+                <div class="rows-space-0">
+                    <a target="_blank" href="#" class="item  " tabindex="0">
+                        <img class="img-responsive lazy" src="assets/images/insta5.jpg" alt="Home 03">
+                        <span class="instagram-info">
+                                 <span class="social-wrap">
+                                    <span class="social-info">1
+                                        <i class="flaticon-chat"></i>
+                                    </span>
+                                    <span class="social-info">0
+                                        <i class="flaticon-heart-shape-outline"></i>
+                                    </span>
+                                </span>
+                            </span>
+                    </a>
+                </div>
+                <div class="rows-space-0">
+                    <a target="_blank" href="#" class="item  " tabindex="0">
+                        <img class="img-responsive lazy" src="assets/images/insta6.jpg" alt="Home 03">
+                        <span class="instagram-info">
+                                 <span class="social-wrap">
+                                    <span class="social-info">1
+                                        <i class="flaticon-chat"></i>
+                                    </span>
+                                    <span class="social-info">0
+                                        <i class="flaticon-heart-shape-outline"></i>
+                                    </span>
+                                </span>
+                            </span>
+                    </a>
+                </div>
+                <div class="rows-space-0">
+                    <a target="_blank" href="#" class="item  " tabindex="0">
+                        <img class="img-responsive lazy" src="assets/images/insta7.jpg" alt="Home 03">
+                        <span class="instagram-info">
+                                 <span class="social-wrap">
+                                    <span class="social-info">1
+                                        <i class="flaticon-chat"></i>
+                                    </span>
+                                    <span class="social-info">0
+                                        <i class="flaticon-heart-shape-outline"></i>
+                                    </span>
+                                </span>
+                            </span>
+                    </a>
+                </div>
+                <div class="rows-space-0">
+                    <a target="_blank" href="#" class="item  " tabindex="0">
+                        <img class="img-responsive lazy" src="assets/images/insta8.jpg" alt="Home 03">
+                        <span class="instagram-info">
+                                 <span class="social-wrap">
+                                    <span class="social-info">1
+                                        <i class="flaticon-chat"></i>
+                                    </span>
+                                    <span class="social-info">0
+                                        <i class="flaticon-heart-shape-outline"></i>
+                                    </span>
+                                </span>
+                            </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer id="footer" class="footer style-03">
+    <div class="section-001 section-020">
+        <div class="container">
+            <div class="kobolg-newsletter style-03">
+                <div class="newsletter-inner">
+                    <div class="newsletter-info">
+                        <div class="newsletter-wrap">
+                            <h3 class="title">Newsletter</h3>
+                            <h4 class="subtitle">Get Discount 30% Off</h4>
+                            <p class="desc">Nam sed felis at eros blandit ultrices et quis quam. In sit amet molestie
+                                lectus.</p>
+                        </div>
+                    </div>
+                    <div class="newsletter-form-wrap">
+                        <div class="newsletter-form-inner">
+                            <input class="email email-newsletter" name="email" placeholder="Enter your email ..."
+                                   type="email">
+                            <a href="#" class="button btn-submit submit-newsletter">
+                                <span class="text">Subscribe</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="kobolg-socials style-02">
+                <div class="content-socials">
+                    <ul class="socials-list">
+                        <li>
+                            <a href="https://facebook.com" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.pinterest.com" target="_blank">
+                                <i class="fa fa-pinterest-p"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-021">
+        <div class="container">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-5">
-                    <div class="justify-content-center">
-                        <h4 class="" style="text-align: center;">โครงการ / ผลงาน</h4>
-                    </div>
+                <div class="col-md-6">
+                    <p>© Copyright 2021 <a href="#">BCS</a>. All Rights Reserved.</p>
                 </div>
-            </div>
-            <div class="row justify-content-center" data-wow-duration="1.5s" data-wow-offset="100">
-                <div class="row" data-aos="fade-up"data-aos-duration="1000">
-                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                        <div class="card" style="width:100%;">
-                        <!-- <div class="content-overlay"></div> -->
-                            <img src="assets/images/reviewBig/1.png" class="card-img-top" alt="...">       
-                        </div>
-                        <h4 class="mt-3" style="text-align: center;">NAME PRODUCT</h4>    
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                        <div class="card" style="width:100%;">
-                            <img src="assets/images/reviewBig/2.jpg" class="card-img-top" alt="...">
-                        </div>
-                        <h4 class="mt-3" style="text-align: center;">NAME PRODUCT</h4>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                        <div class="card" style="width:100%;">
-                            <img src="assets/images/reviewBig/3.jpg" class="card-img-top" alt="...">
-                        </div>
-                        <h4 class="mt-3" style="text-align: center;">NAME PRODUCT</h4>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                        <div class="card" style="width:100%;">
-                            <img src="assets/images/reviewBig/4.jpg" class="card-img-top" alt="...">
-                        </div>
-                        <h4 class="mt-3" style="text-align: center;">NAME PRODUCT</h4>
+                <div class="col-md-6">
+                    <div class="kobolg-listitem style-03">
+                        <div class="listitem-inner">
+                            <ul class="listitem-list">
+                                <!-- <li>
+                                    <a href="#" target="_self">
+                                        Contact </a>
+                                </li> -->
+                                <li>
+                                    <a href="#" target="_self">
+                                       ส่วนบริการลูกค้า </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self">
+                                        ข้อมูลที่เกี่ยวข้อง </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center mt-3" data-wow-duration="1.5s" data-wow-offset="100">
-                <div class="row" data-aos="fade-up"data-aos-duration="1000">
-                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                        <div class="card" style="width:100%;">
-                        <!-- <div class="content-overlay"></div> -->
-                            <img src="assets/images/reviewBig/5.jpg" class="card-img-top" alt="...">       
-                        </div>
-                        <h4 class="mt-3" style="text-align: center;">NAME PRODUCT</h4>    
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                        <div class="card" style="width:100%;">
-                            <img src="assets/images/reviewBig/6.jpg" class="card-img-top" alt="...">
-                        </div>
-                        <h4 class="mt-3" style="text-align: center;">NAME PRODUCT</h4>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                        <div class="card" style="width:100%;">
-                            <img src="assets/images/reviewBig/7.jpg" class="card-img-top" alt="...">
-                        </div>
-                        <h4 class="mt-3" style="text-align: center;">NAME PRODUCT</h4>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                        <div class="card" style="width:100%;">
-                            <img src="assets/images/reviewBig/8.jpg" class="card-img-top" alt="...">
-                        </div>
-                        <h4 class="mt-3" style="text-align: center;">NAME PRODUCT</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
             </div>
         </div>
-    </section>
-
-
-
- 
-    
-    
-    <!-- footer -->
+    </div>
+</footer>
+<div class="footer-device-mobile">
+    <div class="wapper">
+        <div class="footer-device-mobile-item device-home">
+            <a href="index.html">
+					<span class="icon">
+						<i class="fa fa-home" aria-hidden="true"></i>
+					</span>
+                Home
+            </a>
+        </div>
+        <div class="footer-device-mobile-item device-home device-wishlist">
+            <a href="wishlist.html">
+					<span class="icon">
+						<i class="fa fa-heart" aria-hidden="true"></i>
+					</span>
+                Wishlist
+            </a>
+        </div>
+        <div class="footer-device-mobile-item device-home device-cart">
+            <a href="cart.html">
+					<span class="icon">
+						<i class="fa fa-shopping-basket" aria-hidden="true"></i>
+						<span class="count-icon">
+							0
+						</span>
+					</span>
+                <span class="text">Cart</span>
+            </a>
+        </div>
+        <div class="footer-device-mobile-item device-home device-user">
+            <a href="my-account.html">
+					<span class="icon">
+						<i class="fa fa-user" aria-hidden="true"></i>
+					</span>
+                Account
+            </a>
+        </div>
+    </div>
+</div>
+<a href="#" class="backtotop active">
+    <i class="fa fa-angle-up"></i>
+</a>
+<script src="<?=base_url('assets/js/jquery-1.12.4.min.js');?>"></script>
+<script src="<?=base_url('assets/js/bootstrap.min.js');?>"></script>
+<script src="<?=base_url('assets/js/chosen.min.js');?>"></script>
+<script src="<?=base_url('assets/js/countdown.min.js');?>"></script>
+<script src="<?=base_url('assets/js/jquery.scrollbar.min.js');?>"></script>
+<script src="<?=base_url('assets/js/lightbox.min.js');?>"></script>
+<script src="<?=base_url('assets/js/magnific-popup.min.js');?>"></script>
+<script src="<?=base_url('assets/js/slick.js');?>"></script>
+<script src="<?=base_url('assets/js/jquery.zoom.min.js');?>"></script>
+<script src="<?=base_url('assets/js/threesixty.min.js');?>"></script>
+<script src="<?=base_url('assets/js/jquery-ui.min.js');?>"></script>
+<script src="<?=base_url('assets/js/mobilemenu.js');?>"></script>
+<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyC3nDHy1dARR-Pa_2jjPCjvsOR4bcILYsM'></script>
+<script src="<?=base_url('assets/js/functions.js');?>"></script>
+</body>
+</html>
