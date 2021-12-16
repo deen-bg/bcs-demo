@@ -14,7 +14,7 @@
                     <div class="col-lg-6 col-sm-6">
                         <div class="footer-link">
                             <ul>
-                                <li><a href="#">Tel : 091 717 8234</a></li>
+                                <li><a href="#">Tel : 097-015-8369</a></li>
                                 <li><a href="#">E-mail : big.inspector88@gmail.com</a></li>
                                 <li><a href="#">ร่วมแชร์ประสบการณ์การบริการ <br> กับ BIG Inspector</a></li>
                             </ul>

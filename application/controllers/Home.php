@@ -14,6 +14,7 @@ class home extends CI_Controller {
 	{
 		$this->load->view('header'); // load header script,menu
 		$this->load->view('home');
+		$this->load->view('script-js');
 	}
 
 }

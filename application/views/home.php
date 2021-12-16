@@ -5,41 +5,41 @@
              data-slick="{&quot;arrows&quot;:false,&quot;slidesMargin&quot;:0,&quot;dots&quot;:true,&quot;infinite&quot;:false,&quot;speed&quot;:300,&quot;slidesToShow&quot;:1,&quot;rows&quot;:1}"
              data-responsive="[{&quot;breakpoint&quot;:480,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesMargin&quot;:&quot;0&quot;}},{&quot;breakpoint&quot;:768,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesMargin&quot;:&quot;0&quot;}},{&quot;breakpoint&quot;:992,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesMargin&quot;:&quot;0&quot;}},{&quot;breakpoint&quot;:1200,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesMargin&quot;:&quot;0&quot;}},{&quot;breakpoint&quot;:1500,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesMargin&quot;:&quot;0&quot;}}]">
             <div class="slide-wrap">
-                <img src="assets/images/slide31.jpg" alt="image">
+                <img src="assets/img/banner/bcs_chair-01.png" alt="image">
                 <div class="slide-info">
                     <div class="container">
-                        <div class="slide-inner">
+                        <!-- <div class="slide-inner">
                             <h1>SUMMER</h1>
                             <h5>Hot Watches</h5>
                             <h2><span>Smart </span>Cool</h2>
                             <a href="#">Shop now</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
             <div class="slide-wrap">
-                <img src="assets/images/slide32.jpg" alt="image">
+                <img src="assets/img/banner/bcs_delivery-01.png" alt="image">
                 <div class="slide-info">
                     <div class="container">
-                        <div class="slide-inner">
+                        <!-- <div class="slide-inner">
                             <h1>SPRING </h1>
                             <h5>New Arrivals</h5>
                             <h2><span>Modern</span> collection</h2>
                             <a href="#">Shop now</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
             <div class="slide-wrap">
-                <img src="assets/images/slide33.jpg" alt="image">
+                <img src="assets/img/banner/bcs_gaminggear-01.png" alt="image">
                 <div class="slide-info">
                     <div class="container">
-                        <div class="slide-inner">
+                        <!-- <div class="slide-inner">
                             <h1>AUTUMN </h1>
                             <h5>Best Seller</h5>
                             <h2><span>Photo </span> Screen</h2>
                             <a href="#">Shop now</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -51,20 +51,17 @@
                 <div class="kobolg-banner style-08 left-center">
                     <div class="banner-inner">
                         <figure class="banner-thumb">
-                            <img src="assets/images/banner31.jpg"
+                            <img src="assets/img/banner/bcs_sould-01.png"
                                  class="attachment-full size-full" alt="img"></figure>
                         <div class="banner-info ">
                             <div class="banner-content">
                                 <div class="title-wrap">
                                     <h6 class="title">
-                                        Deal Of Day</h6>
+                                        <!-- Deal Of Day--></h6> 
                                 </div>
-                                <div class="cate">
-                                    50% sale off
-                                </div>
-                                <div class="button-wrap">
+                                <!-- <div class="button-wrap">
                                     <a class="button" target="_self" href="#"><span>Shop now</span></a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -74,11 +71,11 @@
                 <div class="kobolg-banner style-09 left-center">
                     <div class="banner-inner">
                         <figure class="banner-thumb">
-                            <img src="assets/images/banner32.jpg"
+                            <img src="assets/img/banner/bcs_camera-01.png"
                                  class="attachment-full size-full" alt="img"></figure>
                         <div class="banner-info ">
                             <div class="banner-content">
-                                <div class="title-wrap">
+                                <!-- <div class="title-wrap">
                                     <h6 class="title">
                                         Best Product </h6>
                                 </div>
@@ -87,7 +84,7 @@
                                 </div>
                                 <div class="button-wrap">
                                     <a class="button" target="_self" href="#"><span>Shop now</span></a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -97,11 +94,11 @@
                 <div class="kobolg-banner style-10 left-center">
                     <div class="banner-inner">
                         <figure class="banner-thumb">
-                            <img src="assets/images/banner33.jpg"
+                            <img src="assets/img/banner/bcs_mice-01.png"
                                  class="attachment-full size-full" alt="img"></figure>
                         <div class="banner-info ">
                             <div class="banner-content">
-                                <div class="title-wrap">
+                                <!-- <div class="title-wrap">
                                     <h6 class="title">
                                         Smart Speaker</h6>
                                 </div>
@@ -110,7 +107,7 @@
                                 </div>
                                 <div class="button-wrap">
                                     <a class="button" target="_self" href="#"><span>Shop now</span></a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -123,7 +120,7 @@
             <div class="kobolg-heading style-01">
                 <div class="heading-inner">
                     <h3 class="title">
-                        Top Trend </h3>
+                    สินค้าแนะนำ</h3>
                     <div class="subtitle">
                         Browse our website for the hottest items in the marketplace now.
                     </div>
@@ -134,10 +131,10 @@
                     <div class="product-item best-selling style-04 rows-space-30 col-bg-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-ts-6 post-25 product type-product status-publish has-post-thumbnail product_cat-light product_cat-chair product_cat-specials product_tag-light product_tag-sock first instock sale featured shipping-taxable purchasable product-type-simple">
                         <div class="product-inner tooltip-top tooltip-all-top">
                             <div class="product-thumb">
-                                <a class="thumb-link" href="#">
+                                <a class="thumb-link" href="<?=base_url('product/detail');?>">
                                     <img class="img-responsive"
-                                         src="assets/images/apro151-1-270x350.jpg"
-                                         alt="Cellphone Factory" width="270" height="350">
+                                         src="assets/img/GamingGear/gamingcontroller/1.jpg"
+                                         alt="gamingcontroller" width="270" height="350">
                                 </a>
                                 <div class="flash">
                                     <span class="onsale"><span class="number">-11%</span></span>
@@ -160,12 +157,12 @@
                             </div>
                             <div class="product-info">
                                 <h3 class="product-name product_title">
-                                    <a href="#">Cellphone Factory</a>
+                                    <a href="<?=base_url('product/detail');?>">Gaming Controller</a>
                                 </h3>
                                 <span class="price"><del><span class="kobolg-Price-amount amount"><span
-                                        class="kobolg-Price-currencySymbol">$</span>89.00</span></del> <ins><span
+                                        class="kobolg-Price-currencySymbol">฿</span>0</span></del> <ins><span
                                         class="kobolg-Price-amount amount"><span
-                                        class="kobolg-Price-currencySymbol">$</span>79.00</span></ins></span>
+                                        class="kobolg-Price-currencySymbol">฿</span>0</span></ins></span>
                                 <div class="rating-wapper nostar">
                                     <div class="star-rating"><span style="width:0%">Rated <strong
                                             class="rating">0</strong> out of 5</span></div>
@@ -178,8 +175,8 @@
                             <div class="product-thumb">
                                 <a class="thumb-link" href="#">
                                     <img class="img-responsive"
-                                         src="assets/images/apro171-1-270x350.jpg"
-                                         alt="Photo Camera" width="270" height="350">
+                                         src="assets/img/GamingGear/gamingdesk/1.jpg"
+                                         alt="Gaming Desk" width="270" height="350">
                                 </a>
                                 <div class="flash">
                                     <span class="onnew"><span class="text">New</span></span></div>
@@ -243,12 +240,12 @@
                             </div>
                             <div class="product-info">
                                 <h3 class="product-name product_title">
-                                    <a href="#">Photo Camera</a>
+                                    <a href="#">Gaming Desk</a>
                                 </h3>
                                 <span class="price"><span class="kobolg-Price-amount amount"><span
-                                        class="kobolg-Price-currencySymbol">$</span>105.00</span> – <span
+                                        class="kobolg-Price-currencySymbol">฿</span>0</span> – <span
                                         class="kobolg-Price-amount amount"><span
-                                        class="kobolg-Price-currencySymbol">$</span>110.00</span></span>
+                                        class="kobolg-Price-currencySymbol">฿</span>0</span></span>
                                 <div class="rating-wapper nostar">
                                     <div class="star-rating"><span style="width:0%">Rated <strong
                                             class="rating">0</strong> out of 5</span></div>
@@ -261,7 +258,7 @@
                             <div class="product-thumb">
                                 <a class="thumb-link" href="#">
                                     <img class="img-responsive"
-                                         src="assets/images/apro71-1-270x350.jpg"
+                                         src="assets/img/GamingGear/gamingnouse/1.jpg"
                                          alt="Gaming Mouse" width="270" height="350">
                                 </a>
                                 <div class="flash">
@@ -288,9 +285,9 @@
                                     <a href="#">Gaming Mouse</a>
                                 </h3>
                                 <span class="price"><del><span class="kobolg-Price-amount amount"><span
-                                        class="kobolg-Price-currencySymbol">$</span>109.00</span></del> <ins><span
+                                        class="kobolg-Price-currencySymbol">฿</span>0</span></del> <ins><span
                                         class="kobolg-Price-amount amount"><span
-                                        class="kobolg-Price-currencySymbol">$</span>89.00</span></ins></span>
+                                        class="kobolg-Price-currencySymbol">฿</span>0</span></ins></span>
                                 <div class="rating-wapper nostar">
                                     <div class="star-rating"><span style="width:0%">Rated <strong
                                             class="rating">0</strong> out of 5</span></div>
@@ -303,8 +300,8 @@
                             <div class="product-thumb">
                                 <a class="thumb-link" href="#">
                                     <img class="img-responsive"
-                                         src="assets/images/apro201-1-270x350.jpg"
-                                         alt="Smart Monitor" width="270" height="350">
+                                         src="assets/img/GamingGear/gamingheadphone\1.jpg"
+                                         alt="Gaming Headphone" width="270" height="350">
                                 </a>
                                 <div class="flash">
                                     <span class="onsale"><span class="number">-7%</span></span>
@@ -327,12 +324,12 @@
                             </div>
                             <div class="product-info">
                                 <h3 class="product-name product_title">
-                                    <a href="#">Smart Monitor</a>
+                                    <a href="#">Gaming Headphone</a>
                                 </h3>
                                 <span class="price"><del><span class="kobolg-Price-amount amount"><span
-                                        class="kobolg-Price-currencySymbol">$</span>150.00</span></del> <ins><span
+                                        class="kobolg-Price-currencySymbol">฿</span>0</span></del> <ins><span
                                         class="kobolg-Price-amount amount"><span
-                                        class="kobolg-Price-currencySymbol">$</span>139.00</span></ins></span>
+                                        class="kobolg-Price-currencySymbol">฿</span>0</span></ins></span>
                                 <div class="rating-wapper nostar">
                                     <div class="star-rating"><span style="width:0%">Rated <strong
                                             class="rating">0</strong> out of 5</span></div>
@@ -345,8 +342,8 @@
                             <div class="product-thumb">
                                 <a class="thumb-link" href="#">
                                     <img class="img-responsive"
-                                         src="assets/images/apro51012-1-270x350.jpg"
-                                         alt="Multi Cellphone" width="270" height="350">
+                                         src="assets/img/GamingGear/gamingheadphone/1.jpg"
+                                         alt="Gaming Headphone" width="270" height="350">
                                 </a>
                                 <div class="flash">
                                     <span class="onsale"><span class="number">-21%</span></span>
@@ -369,12 +366,12 @@
                             </div>
                             <div class="product-info">
                                 <h3 class="product-name product_title">
-                                    <a href="#">Multi Cellphone</a>
+                                    <a href="#">Gaming Headphone</a>
                                 </h3>
                                 <span class="price"><del><span class="kobolg-Price-amount amount"><span
-                                        class="kobolg-Price-currencySymbol">$</span>125.00</span></del> <ins><span
+                                        class="kobolg-Price-currencySymbol">฿</span>0</span></del> <ins><span
                                         class="kobolg-Price-amount amount"><span
-                                        class="kobolg-Price-currencySymbol">$</span>99.00</span></ins></span>
+                                        class="kobolg-Price-currencySymbol">฿</span>0</span></ins></span>
                                 <div class="rating-wapper nostar">
                                     <div class="star-rating"><span style="width:0%">Rated <strong
                                             class="rating">0</strong> out of 5</span></div>
@@ -387,8 +384,8 @@
                             <div class="product-thumb">
                                 <a class="thumb-link" href="#">
                                     <img class="img-responsive"
-                                         src="assets/images/apro302-270x350.jpg"
-                                         alt="Circle Watches" width="270" height="350">
+                                         src="assets/img/GamingGear/gamingmonitorarm/1.jpg"
+                                         alt="Gaming Monitorarm" width="270" height="350">
                                 </a>
                                 <div class="flash">
                                     <span class="onnew"><span class="text">New</span></span></div>
@@ -410,10 +407,10 @@
                             </div>
                             <div class="product-info">
                                 <h3 class="product-name product_title">
-                                    <a href="#">Circle Watches</a>
+                                    <a href="#">Gaming Monitorarm</a>
                                 </h3>
                                 <span class="price"><span class="kobolg-Price-amount amount"><span
-                                        class="kobolg-Price-currencySymbol">$</span>79.00</span></span>
+                                        class="kobolg-Price-currencySymbol">฿</span>0</span></span>
                                 <div class="rating-wapper nostar">
                                     <div class="star-rating"><span style="width:0%">Rated <strong
                                             class="rating">0</strong> out of 5</span></div>
@@ -426,8 +423,8 @@
                             <div class="product-thumb">
                                 <a class="thumb-link" href="#">
                                     <img class="img-responsive"
-                                         src="assets/images/apro13-1-270x350.jpg"
-                                         alt="Meta Watches                                                " width="270" height="350">
+                                         src="assets/img/GamingGear/gamingmousepad/1.jpg"
+                                         alt="Gaming Mousepad" width="270" height="350">
                                 </a>
                                 <div class="flash">
                                     <span class="onnew"><span class="text">New</span></span></div>
@@ -449,10 +446,10 @@
                             </div>
                             <div class="product-info">
                                 <h3 class="product-name product_title">
-                                    <a href="#">Meta Watches                                                </a>
+                                    <a href="#">Gaming Mousepad</a>
                                 </h3>
                                 <span class="price"><span class="kobolg-Price-amount amount"><span
-                                        class="kobolg-Price-currencySymbol">$</span>109.00</span></span>
+                                        class="kobolg-Price-currencySymbol">฿</span>0</span></span>
                                 <div class="rating-wapper nostar">
                                     <div class="star-rating"><span style="width:0%">Rated <strong
                                             class="rating">0</strong> out of 5</span></div>
@@ -465,11 +462,11 @@
                             <div class="product-thumb">
                                 <a class="thumb-link" href="#">
                                     <img class="img-responsive"
-                                         src="assets/images/apro1211-2-270x350.jpg"
-                                         alt="Modern Watches" width="270" height="350">
+                                         src="assets/img/GamingGear/Keyboard+mouse/1.jpg"
+                                         alt="Keyboard Mouse" width="270" height="350">
                                 </a>
                                 <div class="flash">
-                                    <span class="onsale"><span class="number">-14%</span></span>
+                                    <span class="onsale"><span class="number">0</span></span>
                                     <span class="onnew"><span class="text">New</span></span></div>
                                 <div class="group-button">
                                     <div class="add-to-cart">
@@ -489,7 +486,7 @@
                             </div>
                             <div class="product-info">
                                 <h3 class="product-name product_title">
-                                    <a href="#">Modern Watches</a>
+                                    <a href="#">Keyboard Mouse</a>
                                 </h3>
                                 <span class="price"><del><span class="kobolg-Price-amount amount"><span
                                         class="kobolg-Price-currencySymbol">$</span>138.00</span></del> <ins><span
@@ -508,8 +505,8 @@
                             <div class="product-thumb">
                                 <a class="thumb-link" href="#">
                                     <img class="img-responsive"
-                                         src="assets/images/apro181-2-270x350.jpg"
-                                         alt="Red Mouse" width="270" height="350">
+                                         src="assets/img/GamingGear/Keyboardgaming/x30---.jpg"
+                                         alt="Keyboard Gaming" width="270" height="350">
                                 </a>
                                 <div class="flash">
                                     <span class="onnew"><span class="text">New</span></span></div>
@@ -531,7 +528,7 @@
                             </div>
                             <div class="product-info">
                                 <h3 class="product-name product_title">
-                                    <a href="#">Red Mouse</a>
+                                    <a href="#">Keyboard Gaming</a>
                                 </h3>
                                 <span class="price"><span class="kobolg-Price-amount amount"><span
                                         class="kobolg-Price-currencySymbol">$</span>98.00</span></span>
@@ -705,13 +702,13 @@
                     </div>
                 </div>
                 <!-- OWL Products -->
-                <div class="shop-all">
+                <!-- <div class="shop-all">
                     <a target=" _blank" href="#">Discovery All</a>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
-    <div class="section-018">
+    <!-- <div class="section-018">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 offset-md-4 col-md-8 offset-xl-6 col-xl-6 offset-lg-5 col-lg-7">
@@ -734,7 +731,7 @@
                                             </div>
                                         </div>
                                         <div class="thumb">
-                                            <img src="assets/images/avatar1.jpg"
+                                            <img src="assets/img/banner/bcs_sould-01.png"
                                                  class="attachment-full size-full" alt="img" width="97"
                                                  height="97"></div>
                                     </div>
@@ -787,8 +784,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="section-001">
+    </div> -->
+    <!-- <div class="section-001">
         <div class="container">
             <div class="kobolg-heading style-01">
                 <div class="heading-inner">
@@ -993,7 +990,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="section-043 section-019">
         <div class="kobolg-heading style-01">
             <div class="heading-inner">
@@ -1160,23 +1157,23 @@
                 <div class="content-socials">
                     <ul class="socials-list">
                         <li>
-                            <a href="https://facebook.com" target="_blank">
+                            <a href="https://bit.ly/3lgRE7u" target="_blank">
                                 <i class="fa fa-facebook"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com" target="_blank">
+                            <a href="https://bit.ly/3E3Wc8U" target="_blank">
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://twitter.com" target="_blank">
-                                <i class="fa fa-twitter"></i>
+                            <a href="https://lin.ee/F5kOARA" target="_blank">
+                               <i class="fa fa-line"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.pinterest.com" target="_blank">
-                                <i class="fa fa-pinterest-p"></i>
+                            <a href="https://bit.ly/3p9lJr0" target="_blank">
+                            <i class="fa fa-tiktok"></i>
                             </a>
                         </li>
                     </ul>
@@ -1256,19 +1253,6 @@
 <a href="#" class="backtotop active">
     <i class="fa fa-angle-up"></i>
 </a>
-<script src="<?=base_url('assets/js/jquery-1.12.4.min.js');?>"></script>
-<script src="<?=base_url('assets/js/bootstrap.min.js');?>"></script>
-<script src="<?=base_url('assets/js/chosen.min.js');?>"></script>
-<script src="<?=base_url('assets/js/countdown.min.js');?>"></script>
-<script src="<?=base_url('assets/js/jquery.scrollbar.min.js');?>"></script>
-<script src="<?=base_url('assets/js/lightbox.min.js');?>"></script>
-<script src="<?=base_url('assets/js/magnific-popup.min.js');?>"></script>
-<script src="<?=base_url('assets/js/slick.js');?>"></script>
-<script src="<?=base_url('assets/js/jquery.zoom.min.js');?>"></script>
-<script src="<?=base_url('assets/js/threesixty.min.js');?>"></script>
-<script src="<?=base_url('assets/js/jquery-ui.min.js');?>"></script>
-<script src="<?=base_url('assets/js/mobilemenu.js');?>"></script>
-<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyC3nDHy1dARR-Pa_2jjPCjvsOR4bcILYsM'></script>
-<script src="<?=base_url('assets/js/functions.js');?>"></script>
+
 </body>
 </html>
