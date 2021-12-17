@@ -1,34 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/chosen.min.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/jquery.scrollbar.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/lightbox.min.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/slick.min.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/fonts/flaticon.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/megamenu.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/dreaming-attribute.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-    <title>Kobolg - HTML Template </title>
-</head>
-<body>
-
-
-
-
-
-
-
-
 
 <div class="fullwidth-template">
     <div class="slide-home-03">
@@ -146,15 +115,15 @@
             </div>
         </div>
     </div>
-    <div class="section-001 mt-5" style="padding-top: 0px;padding-bottom: 0px;">
+    <div class="section-001">
         <div class="container">
             <div class="kobolg-heading style-01">
                 <div class="heading-inner">
                     <h3 class="title">
                     สินค้าแนะนำ</h3>
-                    <!-- <div class="subtitle">
+                    <div class="subtitle">
                         Browse our website for the hottest items in the marketplace now.
-                    </div> -->
+                    </div>
                 </div>
             </div>
             <div class="kobolg-products style-04">
@@ -164,7 +133,7 @@
                             <div class="product-thumb">
                                 <a class="thumb-link" href="<?=base_url('product/detail');?>">
                                     <img class="img-responsive"
-                                         src="<?=base_url('assets/img/GamingGear/gamingcontroller/1.jpg');?>"
+                                         src="assets/img/GamingGear/gamingcontroller/1.jpg"
                                          alt="gamingcontroller" width="270" height="350">
                                 </a>
                                 <div class="flash">
@@ -206,7 +175,7 @@
                             <div class="product-thumb">
                                 <a class="thumb-link" href="#">
                                     <img class="img-responsive"
-                                         src="<?=base_url('assets/img/GamingGear/gamingdesk/1.jpg');?>"
+                                         src="assets/img/GamingGear/gamingdesk/1.jpg"
                                          alt="Gaming Desk" width="270" height="350">
                                 </a>
                                 <div class="flash">
@@ -238,8 +207,16 @@
                                                     </option>
                                                 </select>
                                                 <div class="data-val attribute-pa_color"
-                                                     data-attributetype="box_style">
-                                                    
+                                                     data-attributetype="box_style"><a class="change-value color"
+                                                                                       href="#"
+                                                                                       style="background: #ff63cb;"
+                                                                                       data-value="pink"></a><a
+                                                        class="change-value color" href="#"
+                                                        style="background: #a825ea;" data-value="purple"></a><a
+                                                        class="change-value color" href="#"
+                                                        style="background: #db2b00;" data-value="red"></a></div>
+                                                <a class="reset_variations" href="#"
+                                                   style="visibility: hidden;">Clear</a>
                                             </td>
                                         </tr>
                                         </tbody>
@@ -281,7 +258,7 @@
                             <div class="product-thumb">
                                 <a class="thumb-link" href="#">
                                     <img class="img-responsive"
-                                         src="<?=base_url('assets/img/GamingGear/gamingnouse/1.jpg');?>"
+                                         src="assets/img/GamingGear/gamingnouse/1.jpg"
                                          alt="Gaming Mouse" width="270" height="350">
                                 </a>
                                 <div class="flash">
@@ -323,7 +300,7 @@
                             <div class="product-thumb">
                                 <a class="thumb-link" href="#">
                                     <img class="img-responsive"
-                                         src="<?=base_url('assets/img/GamingGear/gamingheadphone\1.jpg');?>"
+                                         src="assets/img/GamingGear/gamingheadphone\1.jpg"
                                          alt="Gaming Headphone" width="270" height="350">
                                 </a>
                                 <div class="flash">
@@ -365,7 +342,7 @@
                             <div class="product-thumb">
                                 <a class="thumb-link" href="#">
                                     <img class="img-responsive"
-                                         src="<?=base_url('assets/img/GamingGear/gamingheadphone/1.jpg');?>"
+                                         src="assets/img/GamingGear/gamingheadphone/1.jpg"
                                          alt="Gaming Headphone" width="270" height="350">
                                 </a>
                                 <div class="flash">
@@ -407,7 +384,7 @@
                             <div class="product-thumb">
                                 <a class="thumb-link" href="#">
                                     <img class="img-responsive"
-                                         src="<?=base_url('assets/img/GamingGear/gamingmonitorarm/1.jpg');?>"
+                                         src="assets/img/GamingGear/gamingmonitorarm/1.jpg"
                                          alt="Gaming Monitorarm" width="270" height="350">
                                 </a>
                                 <div class="flash">
@@ -446,7 +423,7 @@
                             <div class="product-thumb">
                                 <a class="thumb-link" href="#">
                                     <img class="img-responsive"
-                                         src="<?=base_url('assets/img/GamingGear/gamingmousepad/1.jpg');?>"
+                                         src="assets/img/GamingGear/gamingmousepad/1.jpg"
                                          alt="Gaming Mousepad" width="270" height="350">
                                 </a>
                                 <div class="flash">
@@ -485,7 +462,7 @@
                             <div class="product-thumb">
                                 <a class="thumb-link" href="#">
                                     <img class="img-responsive"
-                                         src="<?=base_url('assets/img/GamingGear/Keyboardmouse/1.jpg');?>"
+                                         src="assets/img/GamingGear/Keyboard+mouse/1.jpg"
                                          alt="Keyboard Mouse" width="270" height="350">
                                 </a>
                                 <div class="flash">
@@ -528,7 +505,7 @@
                             <div class="product-thumb">
                                 <a class="thumb-link" href="#">
                                     <img class="img-responsive"
-                                         src="<?=base_url('assets/img/GamingGear/Keyboardgaming/x30---.jpg');?>"
+                                         src="assets/img/GamingGear/Keyboardgaming/x30---.jpg"
                                          alt="Keyboard Gaming" width="270" height="350">
                                 </a>
                                 <div class="flash">
@@ -567,7 +544,7 @@
                             <div class="product-thumb">
                                 <a class="thumb-link" href="#">
                                     <img class="img-responsive"
-                                         src="<?=base_url('assets/img/micophone/micophone1.jpg');?>"
+                                         src="assets/images/apro101-1-270x350.jpg"
                                          alt="Mac 27 Inch" width="270" height="350">
                                 </a>
                                 <div class="flash">
@@ -590,10 +567,10 @@
                             </div>
                             <div class="product-info">
                                 <h3 class="product-name product_title">
-                                    <a href="#">MicroPhone</a>
+                                    <a href="#">Mac 27 Inch</a>
                                 </h3>
                                 <span class="price"><span class="kobolg-Price-amount amount"><span
-                                        class="kobolg-Price-currencySymbol">฿</span>0</span></span>
+                                        class="kobolg-Price-currencySymbol">$</span>60.00</span></span>
                                 <div class="rating-wapper nostar">
                                     <div class="star-rating"><span style="width:0%">Rated <strong
                                             class="rating">0</strong> out of 5</span></div>
@@ -606,7 +583,7 @@
                             <div class="product-thumb">
                                 <a class="thumb-link" href="#">
                                     <img class="img-responsive"
-                                         src="<?=base_url('assets/img/OKEROE-VM10Microphone/OKEROE-VM10Microphone5.jpg');?>"
+                                         src="assets/images/apro41-1-270x350.jpg"
                                          alt="White Watches" width="270" height="350">
                                 </a>
                                 <div class="flash">
@@ -629,7 +606,7 @@
                             </div>
                             <div class="product-info">
                                 <h3 class="product-name product_title">
-                                    <a href="#">OKEROE-VM10 Microphone</a>
+                                    <a href="#">White Watches</a>
                                 </h3>
                                 <span class="price"><span class="kobolg-Price-amount amount"><span
                                         class="kobolg-Price-currencySymbol">$</span>134.00</span></span>
@@ -645,7 +622,7 @@
                             <div class="product-thumb">
                                 <a class="thumb-link" href="#">
                                     <img class="img-responsive"
-                                         src="<?=base_url('assets/img/SoloCastUSBMicrophone/SoloCastUSBMicrophone.jpg');?>"
+                                         src="assets/images/apro161-1-270x350.jpg"
                                          alt="Gaming Mouse" width="270" height="350">
                                 </a>
                                 <div class="flash">
@@ -676,7 +653,15 @@
                                                             class="attached enabled">Pink
                                                     </option>
                                                 </select>
-                                               
+                                                <div class="data-val attribute-pa_color"
+                                                     data-attributetype="box_style"><a class="change-value color"
+                                                                                       href="#"
+                                                                                       style="background: #3155e2;"
+                                                                                       data-value="blue"></a><a
+                                                        class="change-value color" href="#"
+                                                        style="background: #49aa51;" data-value="green"></a><a
+                                                        class="change-value color" href="#"
+                                                        style="background: #ff63cb;" data-value="pink"></a></div>
                                                 <a class="reset_variations" href="#"
                                                    style="visibility: hidden;">Clear</a>
                                             </td>
@@ -702,7 +687,7 @@
                             </div>
                             <div class="product-info">
                                 <h3 class="product-name product_title">
-                                    <a href="#">SoloCast USB Microphone</a>
+                                    <a href="#">Gaming Mouse</a>
                                 </h3>
                                 <span class="price"><span class="kobolg-Price-amount amount"><span
                                         class="kobolg-Price-currencySymbol">$</span>45.00</span> – <span
@@ -854,8 +839,9 @@
     </div>
 </section>
 <!-- end promotion -->
-<main class="site-main main-container no-sidebar">
-<div class="section-001">
+
+
+    <div class="section-001">
         <div class="container">
             <div class="kobolg-heading style-01">
                 <div class="heading-inner">
@@ -985,7 +971,7 @@
                         <div class="post-inner">
                             <div class="post-thumb">
                                 <a href="#" tabindex="-1">
-                                    <img src="assets/img/newandpromotion/shopee4.jpg"
+                                    <img src="assets/img/newandpromotion/shoppee4.jpg"
                                          class="img-responsive attachment-370x330 size-370x330" alt="img" width="370"
                                          height="330">
                                 </a>
@@ -1057,22 +1043,147 @@
             </div>
         </div>
     </div>
+    <div class="section-043 section-019">
+        <div class="kobolg-heading style-01">
+            <div class="heading-inner">
+                <h3 class="title">
+                    Follow Us </h3>
+                <div class="subtitle">
+                    @kobolgshop
+                </div>
+            </div>
+        </div>
+        </div>
 
-</main>
+<footer id="footer" class="footer style-03">
+<!-- <hr class="hr-or">
+<hr class="hr-or"> -->
+<footer class="nb-footer">
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<div class="about">
+</div>
+</div>
 
-<script src="assets/js/jquery-1.12.4.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/chosen.min.js"></script>
-<script src="assets/js/countdown.min.js"></script>
-<script src="assets/js/jquery.scrollbar.min.js"></script>
-<script src="assets/js/lightbox.min.js"></script>
-<script src="assets/js/magnific-popup.min.js"></script>
-<script src="assets/js/slick.js"></script>
-<script src="assets/js/jquery.zoom.min.js"></script>
-<script src="assets/js/threesixty.min.js"></script>
-<script src="assets/js/jquery-ui.min.js"></script>
-<script src="assets/js/mobilemenu.js"></script>
-<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyC3nDHy1dARR-Pa_2jjPCjvsOR4bcILYsM'></script>
-<script src="assets/js/functions.js"></script>
+<div class="col-md-2 col-sm-6">
+<div class="footer-info-single">
+  <h2 class="title">บริษัท บีซีเอส เซลล์</h2>
+  <ul class="list-unstyled">
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i>How to Pay</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> FAQ's</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Sitemap</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Delivery Info</a></li>
+  </ul>
+</div>
+</div>
+
+<div class="col-md-2 col-sm-6">
+<div class="footer-info-single">
+  <h2 class="title">ส่วนบริการลูกค้า</h2>
+  <ul class="list-unstyled">
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i>วิธีการสั่งซื้อ</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i>วิธีการชำระเงิน</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> วิธีการแจ้งสลิปโอนเงิน</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> วิธีการจัดส่งสินค้า</a></li>
+    <!-- <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> RSS</a></li> -->
+  </ul>
+</div>
+</div>
+
+<div class="col-md-2 col-sm-6">
+<div class="footer-info-single">
+  <h2 class="title">ข้อมูลที่เกี่ยวข้อง</h2>
+  <ul class="list-unstyled">
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> ข้อตกลงตามเงื่อนไข</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> นโยบายความเป็นส่วนตัว</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i>การรับประกัน</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> การเปลี่ยนหรือคืนสินค้า</a></li>
+  </ul>
+</div>
+</div>
+
+<div class="col-md-2 col-sm-6">
+<div class="footer-info-single">
+  <h2 class="title">WE ARE BCS SALE</h2>
+  <ul class="list-unstyled">
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> เกี่ยวกับ บีซีเอสเซลล์</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> ติดต่อบีซีเอสเซลล์</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i>แบรนด์ทั้งหมด</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> คำถามที่พบบ่อย</a></li>
+  </ul>
+  
+</div>
+</div>
+<div class="col-md-4 col-sm-6">
+<div class="footer-info-single">
+  <h2 class="title">ช่องทางการติดตาม</h2>
+  <ul class="list-unstyled">
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Terms Of Use</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Privacy Policy</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Return / Refund Policy</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Store Locations</a></li>
+  </ul>
+</div>
+</div>
+</div>
+</div>
+
+<section class="copyright">
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+<p>Copyright © 2021 BCS SALE CO.,LTD.All Rights Reserved.</p>
+</div>
+<div class="col-sm-6"></div>
+</div>
+</div>
+</section>
+
+</footer>
+
+</footer>
+<div class="footer-device-mobile">
+    <div class="wapper">
+        <div class="footer-device-mobile-item device-home">
+            <a href="index.html">
+					<span class="icon">
+						<i class="fa fa-home" aria-hidden="true"></i>
+					</span>
+                Home
+            </a>
+        </div>
+        <div class="footer-device-mobile-item device-home device-wishlist">
+            <a href="wishlist.html">
+					<span class="icon">
+						<i class="fa fa-heart" aria-hidden="true"></i>
+					</span>
+                Wishlist
+            </a>
+        </div>
+        <div class="footer-device-mobile-item device-home device-cart">
+            <a href="cart.html">
+					<span class="icon">
+						<i class="fa fa-shopping-basket" aria-hidden="true"></i>
+						<span class="count-icon">
+							0
+						</span>
+					</span>
+                <span class="text">Cart</span>
+            </a>
+        </div>
+        <div class="footer-device-mobile-item device-home device-user">
+            <a href="my-account.html">
+					<span class="icon">
+						<i class="fa fa-user" aria-hidden="true"></i>
+					</span>
+                Account
+            </a>
+        </div>
+    </div>
+</div>
+<a href="#" class="backtotop active">
+    <i class="fa fa-angle-up"></i>
+</a>
 </body>
 </html>
