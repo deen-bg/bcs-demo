@@ -22,9 +22,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/style.css');?>"/>
      <!--====== Fontawesome ======-->
     <!-- v.5 -->
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <!-- end google font -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
-    <title>Kobolg - HTML Template </title>
+    <title>BCS SALE</title>
 </head>
 <body>
 <header id="header" class="header style-04 header-dark">
@@ -93,7 +98,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </a>
                     </div>
                     <div class="header-logo">
-                        <a href="index.html"><img alt="Kobolg" src="assets/images/logo.png"
+                        <a href="index.html"><img alt="Kobolg" src="<?=base_url('assets/img/logo/weblogoNew.png');?>"
                                                   class="logo"></a></div>
                 </div>
                 <div class="header-search-mid">
@@ -281,170 +286,75 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 class="clone-main-menu kobolg-clone-mobile-menu kobolg-nav main-menu">
                                 <li id="menu-item-230"
                                     class="menu-item menu-item-type-post_type menu-item-object-megamenu menu-item-230 parent parent-megamenu item-megamenu menu-item-has-children">
-                                    <a class="kobolg-menu-item-title" title="Home" href="index.html">หน้าแรก</a>
+                                    <a class="kobolg-menu-item-title" title="Home" href="<?=base_url('home');?>">หน้าแรก</a>
                                     <span class="toggle-submenu"></span>
-                                    <div class="submenu megamenu megamenu-home">
-                                        <div class="demo-item">
-                                            <div class="row">
-                                                <div class="col-md-6 col-lg-4 col-sm-6">
-                                                    <div class="dreaming_single_image dreaming_content_element az_align_left shadow-img">
-                                                        <figure class="dreaming_wrapper az_figure">
-                                                            <a href="index.html" target="_self"
-                                                               class="az_single_image-wrapper az_box_border_grey effect normal-effect dark-bg">
-                                                                <img src="assets/images/demo001.jpg"
-                                                                     class="az_single_image-img attachment-full"
-                                                                     alt="img">
-                                                            </a>
-                                                        </figure>
-                                                    </div>
-                                                    <h5 class="az_custom_heading">
-                                                        <a href="index.html">Home 01</a>
-                                                    </h5>
-                                                </div>
-                                                <div class="col-md-6 col-lg-4 col-sm-6">
-                                                    <div class="dreaming_single_image dreaming_content_element az_align_left shadow-img">
-                                                        <figure class="dreaming_wrapper az_figure">
-                                                            <a href="home-02.html" target="_self"
-                                                               class="az_single_image-wrapper az_box_border_grey effect normal-effect dark-bg ">
-                                                                <img src="assets/images/demo002.jpg"
-                                                                     class="az_single_image-img attachment-full"
-                                                                     alt="img"></a>
-                                                        </figure>
-                                                    </div>
-                                                    <h5 class="az_custom_heading">
-                                                        <a href="home-02.html">Home 02</a>
-                                                    </h5>
-                                                </div>
-                                                <div class="col-md-6 col-lg-4 col-sm-6">
-                                                    <div class="dreaming_single_image dreaming_content_element az_align_left shadow-img">
-                                                        <figure class="dreaming_wrapper az_figure">
-                                                            <a href="home-03.html" target="_self"
-                                                               class="az_single_image-wrapper az_box_border_grey effect normal-effect dark-bg">
-                                                                <img src="assets/images/demo003.jpg"
-                                                                     class="az_single_image-img attachment-full"
-                                                                     alt="img">
-                                                            </a>
-                                                        </figure>
-                                                    </div>
-                                                    <h5 class="az_custom_heading">
-                                                        <a href="home-03.html">Home 03</a>
-                                                    </h5>
-                                                </div>
-                                                <div class="col-md-6 col-lg-4 col-sm-6">
-                                                    <div class="dreaming_single_image dreaming_content_element az_align_left shadow-img">
-                                                        <figure class="dreaming_wrapper az_figure">
-                                                            <a href="home-04.html" target="_self"
-                                                               class="az_single_image-wrapper az_box_border_grey effect normal-effect dark-bg ">
-                                                                <img src="assets/images/demo004.jpg"
-                                                                     class="az_single_image-img attachment-full"
-                                                                     alt="img">
-                                                            </a>
-                                                        </figure>
-                                                    </div>
-                                                    <h5 class="az_custom_heading">
-                                                        <a href="home-04.html">Home 04</a></h5>
-                                                </div>
-                                                <div class="col-md-6 col-lg-4 col-sm-6">
-                                                    <div class="dreaming_single_image dreaming_content_element az_align_left shadow-img">
-                                                        <figure class="dreaming_wrapper az_figure">
-                                                            <a href="home-05.html" target="_self"
-                                                               class="az_single_image-wrapper az_box_border_grey effect normal-effect dark-bg">
-                                                                <img src="assets/images/demo005.jpg"
-                                                                     class="az_single_image-img attachment-full"
-                                                                     alt="img">
-                                                            </a>
-                                                        </figure>
-                                                    </div>
-                                                    <h5 class="az_custom_heading">
-                                                        <a href="home-05.html">Home 05</a>
-                                                    </h5>
-                                                </div>
-                                                <div class="col-md-6 col-lg-4 col-sm-6">
-                                                    <div class="dreaming_single_image dreaming_content_element az_align_left shadow-img">
-                                                        <figure class="dreaming_wrapper az_figure">
-                                                            <a href="home-06.html" target="_self"
-                                                               class="az_single_image-wrapper az_box_border_grey effect normal-effect dark-bg ">
-                                                                <img src="assets/images/demo006.jpg"
-                                                                     class="az_single_image-img attachment-full"
-                                                                     alt="img">
-                                                            </a>
-                                                        </figure>
-                                                    </div>
-                                                    <h5 class="az_custom_heading">
-                                                        <a href="home-06.html">Home 06</a>
-                                                    </h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    
                                 </li>
                                 <li id="menu-item-228"
                                     class="menu-item menu-item-type-post_type menu-item-object-megamenu menu-item-228 parent parent-megamenu item-megamenu menu-item-has-children">
                                     <a class="kobolg-menu-item-title" title="Shop"
-                                       href="shop.html">สินค้า</a>
+                                       href="<?=base_url('product/reproduct');?>">สินค้า</a>
                                     <span class="toggle-submenu"></span>
                                     <div class="submenu megamenu megamenu-shop">
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="kobolg-listitem style-01">
                                                     <div class="listitem-inner">
-                                                        <h4 class="title">Shop Layouts </h4>
+                                                        <h4 class="title">เกมมิ่งเกียร์</h4>
                                                         <ul class="listitem-list">
                                                             <li>
-                                                                <a href="shop.html" target="_self">Shop Grid </a>
+                                                                <a href="shop.html" target="_self">คีย์บอร์ด เกมมิ่ง</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a href="shop.html" target="_self">เมาส์ เกมมิ่ง</a>
                                                             </li>
                                                             <li>
-                                                                <a href="shop-list.html" target="_self">
-                                                                    <span class="image">
-                                                                        <img src="assets/images/label-new.jpg"
-                                                                             class="attachment-full size-full"
-                                                                             alt="img">
-                                                                    </span>
-                                                                    Shop List
-                                                                </a>
+                                                                <a href="shop-leftsidebar.html" target="_self">หูฟัง เกมมิ่ง </a>
                                                             </li>
                                                             <li>
-                                                                <a href="shop.html" target="_self">No Sidebar </a>
+                                                                <a href="shop-rightsidebar.html" target="_self">จอยเกมส์ </a>
                                                             </li>
                                                             <li>
-                                                                <a href="shop-leftsidebar.html" target="_self">Left
-                                                                    Sidebar </a>
+                                                                <a href="shop-rightsidebar.html" target="_self">ขาตั้งหูฟัง</a>
                                                             </li>
                                                             <li>
-                                                                <a href="shop-rightsidebar.html" target="_self">Right
-                                                                    Sidebar </a>
+                                                                <a href="shop-rightsidebar.html" target="_self">แผ่นรองเมาส์ เกมมิ่ง</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="shop-rightsidebar.html" target="_self">แผ่นรองเมาส์</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="shop-rightsidebar.html" target="_self">คีย์บอร์ด + เมาส์ เกมมิ่งส์</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="shop-rightsidebar.html" target="_self">โต๊ะ เก้าอี้ เกมมิ่ง</a>
                                                             </li>
                                                         </ul>
                                                     </div>
                                                 </div>
                                                 <div class="kobolg-listitem style-01">
                                                     <div class="listitem-inner">
-                                                        <h4 class="title">Product Layouts </h4>
+                                                        <h4 class="title">อุปกรณ์บันทึกเสียง</h4>
                                                         <ul class="listitem-list">
                                                             <li>
-                                                                <a href="single-product.html" target="_self">Vertical
-                                                                    Thumbnails </a>
+                                                                <a href="single-product.html" target="_self"> ไมค์โครโฟน</a>
                                                             </li>
-                                                            <li>
-                                                                <a href="single-product-policy.html"
-                                                                   target="_self">
-                                                                    <span class="image">
-                                                                        <img src="assets/images/label-new.jpg"
-                                                                             class="attachment-full size-full"
-                                                                             alt="img">
-                                                                    </span>
-                                                                    Extra Sidebar
-                                                                </a>
-                                                            </li>
+                                                          
                                                             <li>
                                                                 <a href="single-product-rightsidebar.html"
                                                                    target="_self">
-                                                                    Right Sidebar </a>
+                                                                   ไมค์คอนเดนเซอร์</a>
                                                             </li>
                                                             <li>
                                                                 <a href="single-product-leftsidebar.html"
                                                                    target="_self">
-                                                                    Left Sidebar </a>
+                                                                   ไมค์พกพา ไมค์ติดกล้อง</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="single-product-leftsidebar.html"
+                                                                   target="_self">
+                                                                   ซาวด์การ์ด</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -454,29 +364,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                 <div class="kobolg-listitem style-01">
                                                     <div class="listitem-inner">
                                                         <h4 class="title">
-                                                            Product Extends </h4>
+                                                            อุปกรณ์คอมพิวเตอร์ </h4>
                                                         <ul class="listitem-list">
-                                                            <li>
-                                                                <a href="single-product-bundle.html"
-                                                                   target="_self">
-                                                                            <span class="image">
-                                                                                <img src="assets/images/label-new.jpg"
-                                                                                     class="attachment-full size-full"
-                                                                                     alt="img">
-                                                                            </span>
-                                                                    Product Bundle
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="single-product-360deg.html"
-                                                                   target="_self">
-                                                                    <span class="image">
-                                                                        <img src="assets/images/label-hot.jpg"
-                                                                             class="attachment-full size-full"
-                                                                             alt="img">
-                                                                    </span>
-                                                                    Product 360 Deg </a>
-                                                            </li>
+                                                            
+                                                           
                                                             <li>
                                                                 <a href="single-product-video.html"
                                                                    target="_self">
@@ -488,7 +379,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                 <div class="kobolg-listitem style-01">
                                                     <div class="listitem-inner">
                                                         <h4 class="title">
-                                                            Other Pages </h4>
+                                                            กล้อง </h4>
                                                         <ul class="listitem-list">
                                                             <li>
                                                                 <a href="cart.html">Cart </a>
@@ -514,22 +405,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                 <div class="kobolg-listitem style-01">
                                                     <div class="listitem-inner">
                                                         <h4 class="title">
-                                                            Product Types </h4>
+                                                            อุปกรณ์สมาร์ทโฟน </h4>
                                                         <ul class="listitem-list">
                                                             <li>
                                                                 <a href="single-product-simple.html"
                                                                    target="_self">
                                                                     Simple </a>
                                                             </li>
-                                                            <li>
-                                                                <a href="single-product.html"
-                                                                   target="_self">
-                                                                            <span class="image"><img
-                                                                                    src="assets/images/label-hot.jpg"
-                                                                                    class="attachment-full size-full"
-                                                                                    alt="img"></span>
-                                                                    Variable </a>
-                                                            </li>
+                                                           
                                                             <li>
                                                                 <a href="single-product-external.html"
                                                                    target="_self">
@@ -706,27 +589,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                 <a href="single-post-rightsidebar.html" target="_self">Right
                                                                     Sidebar </a>
                                                             </li>
-                                                            <li>
-                                                                <a href="single-post-instagram.html" target="_self">
-                                                                    <span class="image">
-                                                                        <img src="assets/images/label-hot.jpg"
-                                                                             class="attachment-full size-full"
-                                                                             alt="img">
-                                                                    </span>
-                                                                    Instagram In Post
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="single-post-product.html"
-                                                                   target="_self">
-                                                                    <span class="image">
-                                                                        <img src="assets/images/label-new.jpg"
-                                                                             class="attachment-full size-full"
-                                                                             alt="img">
-                                                                    </span>
-                                                                    Product In Post
-                                                                </a>
-                                                            </li>
+                                                            
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -741,17 +604,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                             <li>
                                                                 <a href="single-post-gallery.html" target="_self">Gallery </a>
                                                             </li>
-                                                            <li>
-                                                                <a href="single-post-video.html"
-                                                                   target="_self">
-                                                                    <span class="image">
-                                                                        <img src="assets/images/label-hot.jpg"
-                                                                             class="attachment-full size-full"
-                                                                             alt="img">
-                                                                    </span>
-                                                                    Video
-                                                                </a>
-                                                            </li>
+                                                            
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -873,7 +726,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="header-mobile-mid">
             <div class="header-logo">
                 <a href="index.html"><img alt="Kobolg"
-                                          src="assets/images/logo.png"
+                                          src="<?=base_url('assets/img/logo/weblogoNew.png');?>"
                                           class="logo"></a></div>
         </div>
         <div class="header-mobile-right">

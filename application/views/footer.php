@@ -1,40 +1,89 @@
-<!--====== FOOTER FOUR PART START ======-->
-<footer id="footer" class="footer-area">
-        <div class="footer-widget" style="padding-bottom: 0px;">
-            <div class="container">
-                <div class="row" style="justify-content: center;">
-                    <h4>ติดต่อเรา</h4>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 col-sm-6 mt-5">
-                        <div class="footer-logo text-center">
-                            <a href="index.html"><img src="assets/images/logo/logobig.png" alt="Logo"></a>
-                        </div> 
-                    </div>
-                    <div class="col-lg-6 col-sm-6">
-                        <div class="footer-link">
-                            <ul>
-                                <li><a href="#">Tel : 097-015-8369</a></li>
-                                <li><a href="#">E-mail : big.inspector88@gmail.com</a></li>
-                                <li><a href="#">ร่วมแชร์ประสบการณ์การบริการ <br> กับ BIG Inspector</a></li>
-                            </ul>
-                        </div> <!-- footer link -->
-                    </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
-        </div> <!-- footer widget -->
-        <div class="footer-copyright">
-            <div class="container">
-                <div class="row "style="justify-content: center;">
-                    <div class="col-lg-5">
-                        <div class="copyright text-center text-lg-left mt-5">
-                            <p class="text">Copyright © 2021 - All Rights Reserved.</p>
-                        </div> <!--  copyright -->
-                    </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
-        </div> <!-- footer copyright -->
-    </footer>
+<footer id="footer" class="footer style-03 mt-5" style="background-color: #4283c5;">
+<!-- <hr class="hr-or">
+<hr class="hr-or"> -->
+<footer class="nb-footer">
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<div class="about">
+</div>
+</div>
+
+<div class="col-md-2 col-sm-6">
+<div class="footer-info-single">
+  <h2 id="title-h2" class="title">บริษัท บีซีเอส เซลล์</h2>
+  <ul class="list-unstyled">
+    <li><i class="fa fa-angle-double-right"></i>How to Pay</a></li>
+    <li><i class="fa fa-angle-double-right"></i> FAQ's</a></li>
+    <li><i class="fa fa-angle-double-right"></i> Sitemap</a></li>
+    <li><i class="fa fa-angle-double-right"></i> Delivery Info</a></li>
+  </ul>
+</div>
+</div>
+
+<div class="col-md-2 col-sm-6">
+<div class="footer-info-single">
+  <h2 id="title-h2" class="title">ส่วนบริการลูกค้า</h2>
+  <ul class="list-unstyled">
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i>วิธีการสั่งซื้อ</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i>วิธีการชำระเงิน</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> วิธีการแจ้งสลิปโอนเงิน</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> วิธีการจัดส่งสินค้า</a></li>
+    <!-- <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> RSS</a></li> -->
+  </ul>
+</div>
+</div>
+
+<div class="col-md-2 col-sm-6">
+<div class="footer-info-single">
+  <h2 id="title-h2" class="title">ข้อมูลที่เกี่ยวข้อง</h2>
+  <ul class="list-unstyled">
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> ข้อตกลงตามเงื่อนไข</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> นโยบายความเป็นส่วนตัว</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i>การรับประกัน</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> การเปลี่ยนหรือคืนสินค้า</a></li>
+  </ul>
+</div>
+</div>
+
+<div class="col-md-2 col-sm-6">
+<div class="footer-info-single">
+  <h2 id="title-h2" class="title">WE ARE BCS SALE</h2>
+  <ul class="list-unstyled">
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> เกี่ยวกับ บีซีเอสเซลล์</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> ติดต่อบีซีเอสเซลล์</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i>แบรนด์ทั้งหมด</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> คำถามที่พบบ่อย</a></li>
+  </ul>
+  
+</div>
+</div>
+<div class="col-md-4 col-sm-6">
+<div class="footer-info-single">
+  <h2 id="title-h2" class="title">ช่องทางการติดตาม</h2>
+  <ul class="list-unstyled">
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Terms Of Use</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Privacy Policy</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Return / Refund Policy</a></li>
+    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Store Locations</a></li>
+  </ul>
+</div>
+</div>
+</div>
+</div>
+
+<section class="copyright">
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+<p>Copyright © 2021 BCS SALE CO.,LTD.All Rights Reserved.</p>
+</div>
+<div class="col-sm-6"></div>
+</div>
+</div>
+</section>
+
+</footer>
     <!--====== FOOTER FOUR PART ENDS ======-->
     
     <!--====== BACK TOP TOP PART START ======-->

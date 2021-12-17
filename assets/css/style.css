@@ -1505,7 +1505,7 @@ article.sticky .post-title a::before {
 2.0 DEFAULT SETTING
 ========================================================================== */
 html, body {
-	font-family: 'sofia_proregular', sans-serif;
+	font-family: 'Prompt', sans-serif;
 	font-size: 15px;
 	line-height: 26px;
 	color: #666666;
@@ -1534,7 +1534,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 12px;
 	margin-bottom: 18px;
 	font-weight: normal;
-	font-family: 'sofia_promedium';
+	font-family: 'Prompt', sans-serif;
 }
 blockquote, q {
 	color: #000;
@@ -1845,8 +1845,8 @@ th, td {
 3.1 HEADER TOP
 ============================================================================ */
 .header-top {
-	background-color: #f3f3f3;
-	border-top: 3px solid #e52e06;
+	background-color: #19386e;
+    border-top: 3px solid #0581ff;
 }
 .header-top-inner {
 	display: table;
@@ -1905,7 +1905,7 @@ th, td {
 	line-height: 30px;
 }
 .header-top-inner .top-bar-menu > .menu-item a:not(:hover) {
-	color: #666;
+	color: rgb(255, 255, 255);
 }
 .header-top-inner .top-bar-menu > .menu-item > a > span {
 	font-size: 18px;
@@ -1949,7 +1949,7 @@ th, td {
 	font-size: 14px;
 }
 .wpml-menu li a:not(:hover) {
-	color: #666;
+	color: rgb(255, 255, 255);
 }
 .block-language {
 	position: relative;
@@ -2747,10 +2747,10 @@ th, td {
 }
 .category .chosen-container .chosen-results li.highlighted {
 	background: none;
-	color: #e52e06;
+	color: #19386e;
 }
 .category .chosen-container .chosen-results li.highlighted::before {
-	color: #e52e06;
+	color: #19386e;
 }
 .category .chosen-container-single .chosen-search {
 	display: none;
@@ -2800,7 +2800,7 @@ th, td {
 	text-align: center;
 	padding: 0 3px;
 	border-radius: 50%;
-	background-color: #e52e06;
+	background-color: #4283c5;
 	font-size: 12px;
 	color: #ffffff;
 }
@@ -3142,7 +3142,7 @@ th, td {
 	position: relative;
 	max-width: 320px;
 	border-radius: 4px;
-	background-color: #e52e06;
+	background-color: #4283c5;
 }
 .vertical-wrapper.block-nav-category .block-title .before {
 	display: block;
@@ -3153,7 +3153,7 @@ th, td {
 	top: 0;
 	left: 0;
 	border-radius: 4px 0 0 4px;
-	background-color: #e52e06;
+	background-color: #4283c5;
 	padding: 20px 0 0 20px;
 }
 .vertical-wrapper.block-nav-category .block-title .before span {
@@ -3571,7 +3571,7 @@ th, td {
 	line-height: 56px;
 	padding: 0 24px;
 	position: relative;
-	background-color: #e52e06;
+	background-color: #4283c5;
 	z-index: 1;
 	overflow: hidden;
 	border-radius: 4px;
@@ -3761,7 +3761,7 @@ a.backtotop {
 	height: 50px;
 	line-height: 50px;
 	font-size: 20px;
-	background-color: #e52e06;
+	background-color: #4283c5;
 	position: fixed;
 	bottom: 65px;
 	right: 25px;
@@ -15152,4 +15152,12 @@ body .kobolg-mapper .text__area {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+
+@media (min-width:1080px) and (max-width: 1920px){
+	#title-h2{
+		font-size: 18px;
+		font-weight: 400;
+	}
 }

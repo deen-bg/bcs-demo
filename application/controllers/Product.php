@@ -11,13 +11,19 @@ class product extends CI_Controller {
 		$this->load->library('form_validation'); 
 		// $this->load->model('Product_model');
 	}
-
+	public function reproduct()
+	{
+		$this->load->view('header');
+		$this->load->view('product/reproduct');
+        $this->load->view('script-js');
+		$this->load->view('footer');
+	}
 	public function detail()
 	{
 		$this->load->view('header');
 		$this->load->view('product/detail');
         $this->load->view('script-js');
-		// $this->load->view('footer');
+		$this->load->view('footer');
 	}
 
 	// ยังไม่เสร็จ
