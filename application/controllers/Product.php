@@ -1,25 +1,26 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-// class product extends CI_Controller {
+class product extends CI_Controller {
 
-// 	public function __construct()
-// 	{
-// 		parent::__construct();
-// 		$this->load->helper('url');
-// 		$this->load->library('pagination'); // load pagination
-// 		$this->load->library('form_validation'); 
-// 		$this->load->model('Product_model');
-// 	}
+	public function __construct()
+	{
+		parent::__construct();
+		$this->load->helper('url');
+		$this->load->library('pagination'); // load pagination
+		$this->load->library('form_validation'); 
+		// $this->load->model('Product_model');
+	}
 
-// 	public function index()
-// 	{
-// 		$this->load->view('head');
-// 		$this->load->view('product');
-// 		$this->load->view('footer');
-// 	}
+	public function detail()
+	{
+		$this->load->view('header');
+		$this->load->view('product/detail');
+        $this->load->view('script-js');
+		// $this->load->view('footer');
+	}
 
-// 	// ยังไม่เสร็จ
+	// ยังไม่เสร็จ
 // 	public function page()
 // 	{
 // 		$_get = $this->security->xss_clean($this->input->get());
@@ -82,5 +83,5 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // 	}
 
 
-
-// }
+// 
+}
