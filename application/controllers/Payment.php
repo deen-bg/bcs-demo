@@ -14,6 +14,8 @@ class payment extends CI_Controller {
 	{
 		$this->load->view('header'); // load header script,menu
 		$this->load->view('payment/payment-ticket');
+		$this->load->view('script-js');
+		$this->load->view('footer');
 	}
 
 }

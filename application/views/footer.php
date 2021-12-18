@@ -12,12 +12,12 @@
 <div class="col-md-2 col-sm-6">
 <div class="footer-info-single">
   <h2 id="title-h2" class="title">บริษัท บีซีเอส เซลล์</h2>
-  <ul class="list-unstyled">
+  <!-- <ul class="list-unstyled">
     <li><i class="fa fa-angle-double-right"></i>How to Pay</a></li>
     <li><i class="fa fa-angle-double-right"></i> FAQ's</a></li>
     <li><i class="fa fa-angle-double-right"></i> Sitemap</a></li>
     <li><i class="fa fa-angle-double-right"></i> Delivery Info</a></li>
-  </ul>
+  </ul> -->
 </div>
 </div>
 
@@ -25,10 +25,10 @@
 <div class="footer-info-single">
   <h2 id="title-h2" class="title">ส่วนบริการลูกค้า</h2>
   <ul class="list-unstyled">
-    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i>วิธีการสั่งซื้อ</a></li>
-    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i>วิธีการชำระเงิน</a></li>
-    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> วิธีการแจ้งสลิปโอนเงิน</a></li>
-    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> วิธีการจัดส่งสินค้า</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i>วิธีการสั่งซื้อ</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i>วิธีการชำระเงิน</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> วิธีการแจ้งสลิปโอนเงิน</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> วิธีการจัดส่งสินค้า</a></li>
     <!-- <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> RSS</a></li> -->
   </ul>
 </div>
@@ -38,10 +38,10 @@
 <div class="footer-info-single">
   <h2 id="title-h2" class="title">ข้อมูลที่เกี่ยวข้อง</h2>
   <ul class="list-unstyled">
-    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> ข้อตกลงตามเงื่อนไข</a></li>
-    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> นโยบายความเป็นส่วนตัว</a></li>
-    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i>การรับประกัน</a></li>
-    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> การเปลี่ยนหรือคืนสินค้า</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> ข้อตกลงตามเงื่อนไข</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> นโยบายความเป็นส่วนตัว</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i>การรับประกัน</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> การเปลี่ยนหรือคืนสินค้า</a></li>
   </ul>
 </div>
 </div>
@@ -50,10 +50,10 @@
 <div class="footer-info-single">
   <h2 id="title-h2" class="title">WE ARE BCS SALE</h2>
   <ul class="list-unstyled">
-    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> เกี่ยวกับ บีซีเอสเซลล์</a></li>
-    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> ติดต่อบีซีเอสเซลล์</a></li>
-    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i>แบรนด์ทั้งหมด</a></li>
-    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> คำถามที่พบบ่อย</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> เกี่ยวกับ บีซีเอสเซลล์</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> ติดต่อบีซีเอสเซลล์</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i>แบรนด์ทั้งหมด</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> คำถามที่พบบ่อย</a></li>
   </ul>
   
 </div>
@@ -62,10 +62,10 @@
 <div class="footer-info-single">
   <h2 id="title-h2" class="title">ช่องทางการติดตาม</h2>
   <ul class="list-unstyled">
-    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Terms Of Use</a></li>
-    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Privacy Policy</a></li>
-    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Return / Refund Policy</a></li>
-    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Store Locations</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Terms Of Use</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Privacy Policy</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Return / Refund Policy</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Store Locations</a></li>
   </ul>
 </div>
 </div>

@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png"/>
+    <link rel="shortcut icon" type="assets\img\logo\weblogoNew.png" href="assets\img\logo\weblogoNew.png"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/bootstrap.min.css');?>"/>
     <link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/animate.css');?>"/>
@@ -115,7 +115,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <input name="post_type" value="product" type="hidden">
                                 <input name="taxonomy" value="product_cat" type="hidden">
                                 <div class="category">
-                                    <select title="product_cat" name="product_cat" id="1771262470"
+                                    <!-- <select title="product_cat" name="product_cat" id="1771262470"
                                             class="category-search-option"
                                             tabindex="-1" style="display: none;">
                                         <option value="0">All Categories</option>
@@ -127,12 +127,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                         <option class="level-0" value="lamp">Summer Sale</option>
                                         <option class="level-0" value="specials">Specials</option>
                                         <option class="level-0" value="sofas">Featured</option>
-                                    </select>
+                                    </select> -->
                                 </div>
                                 <button type="submit" class="btn-submit">
                                     <span class="flaticon-search"></span>
                                 </button>
-                            </form><!-- block search -->
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -275,10 +275,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-894 link-other">
                                         <a class="azeroth-menu-item-title" title="Best Seller" href="#"><span class="icon flaticon-shiny-diamond"></span> Seller</a></li>
                                 </ul>
-                                <div class="view-all-category">
+                                <!-- <div class="view-all-category">
                                     <a href="#" data-closetext="Close" data-alltext="All Categories"
                                        class="btn-view-all open-cate">All Categories</a>
-                                </div>
+                                </div> -->
                             </div>
                         </div><!-- block category -->
                         <div class="box-header-nav menu-nocenter">
@@ -303,7 +303,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                         <h4 class="title">เกมมิ่งเกียร์</h4>
                                                         <ul class="listitem-list">
                                                             <li>
-                                                                <a href="shop.html" target="_self">คีย์บอร์ด เกมมิ่ง</a>
+                                                                <a href="<?=base_url('product/keyboard');?>" target="_self">คีย์บอร์ด เกมมิ่ง</a>
                                                             </li>
                                                         
                                                             <li>
@@ -443,9 +443,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <li id="menu-item-229"
                                     class="menu-item menu-item-type-post_type menu-item-object-megamenu menu-item-229 parent parent-megamenu item-megamenu menu-item-has-children">
                                     <!-- <a class="kobolg-menu-item-title" title="Elements" href="#">Elements</a> -->
-                                    <a class="kobolg-menu-item-title" title="Elements" href="<?=base_url('payment-ticket');?>">แจ้งชำระเงิน</a>
+                                   <a class="kobolg-menu-item-title" title="Elements" href="<?=base_url('payment-ticket');?>">แจ้งชำระเงิน</a>
                                     <span class="toggle-submenu"></span>
-                                    <div class="submenu megamenu megamenu-elements">
+                                    <!--  <div class="submenu megamenu megamenu-elements">
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="kobolg-listitem style-01">
@@ -536,12 +536,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             </div>
                                         </div>
                                     </div>
-                                </li>
+                                </li> -->
                                 <li id="menu-item-996"
                                     class="menu-item menu-item-type-post_type menu-item-object-megamenu menu-item-996 parent parent-megamenu item-megamenu menu-item-has-children">
                                     <!-- <a class="kobolg-menu-item-title" title="Blog"href="blog.html">Blog</a> -->
-                                    <a class="kobolg-menu-item-title" title="Blog"href="<?=base_url('order-tracking');?>">สถานะพัสดุ</a>
-                                    <span class="toggle-submenu"></span>
+                                    <a class="kobolg-menu-item-title" title="Blog"href="<?=base_url('order-tracking');?>">ติดตามคำสั่งซื้อ</a>
+                                    <!-- <span class="toggle-submenu"></span>
                                     <div class="submenu megamenu megamenu-blog">
                                         <div class="row">
                                             <div class="col-md-4">
@@ -611,7 +611,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             </div>
                                         </div>
                                     </div>
-                                </li>
+                                </li> -->
                                 <!-- <li id="menu-item-237"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-237 parent">
                                     <a class="kobolg-menu-item-title" title="Pages" href="#">Pages</a>
@@ -669,7 +669,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <input name="post_type" value="product" type="hidden">
                         <input name="taxonomy" value="product_cat" type="hidden">
                         <div class="category">
-                            <select title="product_cat" name="product_cat" id="1770352541"
+                            <!-- <select title="product_cat" name="product_cat" id="1770352541"
                                     class="category-search-option" tabindex="-1"
                                     style="display: none;">
                                 <option value="0">All Categories</option>
@@ -681,7 +681,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <option class="level-0" value="lamp">Summer Sale</option>
                                 <option class="level-0" value="specials">Specials</option>
                                 <option class="level-0" value="sofas">Featured</option>
-                            </select>
+                            </select> -->
                         </div>
                         <button type="submit" class="btn-submit">
                             <span class="flaticon-search"></span>
