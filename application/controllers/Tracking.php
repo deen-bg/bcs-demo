@@ -14,6 +14,8 @@ class tracking extends CI_Controller {
 	{
         $this->load->view('header'); // load header script,menu
 		$this->load->view('tracking/order-tracking');
+		$this->load->view('script-js');
+		$this->load->view('footer');
 	}
 
 }

@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
  
-$config['base_url'] = 'https://localhost/bcs-demo/';
+$config['base_url'] = 'https://brickhouse-test.com/bcs-demo/';
 
 $config['index_page'] = '';
 

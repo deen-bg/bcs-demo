@@ -25,6 +25,13 @@ class product extends CI_Controller {
         $this->load->view('script-js');
 		$this->load->view('footer');
 	}
+	public function keyboard()
+	{
+		$this->load->view('header');
+		$this->load->view('product/keyboard');
+        $this->load->view('script-js');
+		$this->load->view('footer');
+	}
 
 	// ยังไม่เสร็จ
 // 	public function page()
